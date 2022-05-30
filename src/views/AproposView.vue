@@ -25,8 +25,8 @@
 
       <div class="place-content-center mt-10">
          <img src="public/img/bulle-2.png" alt="travailleur 3">
-         <p class="text-center mt-6">Lilian Girard</p>
-         <p class="text-center">Comptable</p>
+         <p class="text-center mt-6">Lola Porte</p>
+         <p class="text-center">Préparatrice événementiel</p>
      </div>
 
       <div class="place-content-center mt-10">
@@ -37,20 +37,20 @@
 
       <div class="place-content-center mt-10">
          <img src="public/img/bulle-4.png" alt="travailleur 3">
-         <p class="text-center mt-6">Lilian Girard</p>
-         <p class="text-center">Comptable</p>
+         <p class="text-center mt-6">Hugot Flory</p>
+         <p class="text-center">Gestion des partenariats</p>
      </div>
 
       <div class="place-content-center mt-10">
          <img src="public/img/bulle-5.png" alt="travailleur 3">
-         <p class="text-center mt-6">Lilian Girard</p>
-         <p class="text-center">Comptable</p>
+         <p class="text-center mt-6">Christian Let</p>
+         <p class="text-center">Costumier</p>
      </div>
 
       <div class="place-content-center mt-10">
          <img src="public/img/bulle-6.png" alt="travailleur 3">
-         <p class="text-center mt-6">Lilian Girard</p>
-         <p class="text-center">Comptable</p>
+         <p class="text-center mt-6">Lucie Safir</p>
+         <p class="text-center">Chargé de communication sur les réseaux sociaux</p>
      </div>
 </div>
 
