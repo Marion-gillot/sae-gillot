@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       "colors": {
        "fondsite": "#191919",
-       "illustration - rose": "#ab468b",
+       "illustrationrose": "#ab468b",
        "bouton newsletter et citation - orange": "#d56e64",
        "bouton spotify - vert": "#53b657",
        "fond gris ": "#272727",

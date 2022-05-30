@@ -11,14 +11,17 @@ import Footer1 from "./Layout/footer.vue";
   </div>
   
   <div class="flex mt-8 space-x-8 font-roboto text-white">
-    <h3><a href="accueil">Concert</a></h3>
-    <h3><a href="apropos">Programmation</a></h3>
-    <h3><a href="contact">Artistes</a></h3>
-    <h3><a href="apropos">Festival</a></h3>
-    <h3><a href="noscoloriages">Contact</a></h3>
+    <RouterLink to="/concert">Concert</RouterLink>
+    <RouterLink to="/programmation">Programmation</RouterLink>
+    <RouterLink to="/artistes">Artistes</RouterLink>
+    <RouterLink to="/apropos">Festival</RouterLink>
+    <RouterLink to="/contact" class="text-illustrationrose">Contact</RouterLink>
     </div>
   </nav>
   </header>
+
+  <RouterView />
+
 
 
 
