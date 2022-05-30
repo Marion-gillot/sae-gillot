@@ -59,16 +59,19 @@
     <h2 class="z-10 text-2xl text-center">Une innovation écologique et économique</h2>
 
     <h2 class="mx-24 mt-20 text-1xl font-bold pt-5">Nous sommes responsable de toute forme de dégradation environnemental ou bien public</h2>
-    <p class="mx-24 mt-10">C’est pour cela que nous encourageons vivement les particpants du festival à prendre soin des lieux. Au delà de ça, nos bénévolats participent au nettoyage de la plage ainsi qu’au ramassage de déchets pouvant se retrouver dans la mer. La protection de l’environnement </p>
+    <p class="mx-24 mt-10 w-7/12">C’est pour cela que nous encourageons vivement les particpants du festival à prendre soin des lieux. Au delà de ça, nos bénévolats participent au nettoyage de la plage ainsi qu’au ramassage de déchets pouvant se retrouver dans la mer. La protection de l’environnement </p>
 
- <h2 class="mx-24 mt-20 text-1xl font-bold pt-5">Pour permettre l’accès à tous, nous proposons des réductions sur certaines activités, ainsi que les billets d’entrée</h2>
+ <h2 class="mx-24 mt-10 text-1xl font-bold pt-5 w-8/12">Pour permettre l’accès à tous, nous proposons des réductions sur certaines activités, ainsi que les billets d’entrée</h2>
+
+ <ul class="mx-28 mt-10 w-7/12">
+    <li>- Si vous êtes étudiant(e), vous pouvez bénéficier d’une réduction sur vos billets d’entrée, à condition de présenter votre statut étudiant(e). </li>
+    <li>- Des activités sur la plage sont disponible pour vous avec des prix moins élevés qu’en dehors du Festival Sunset. En outre, les tarifs sont fexibles selon votre âge.</li>
+ </ul>
+
 
  
 
 
- Si vous êtes étudiant(e), vous pouvez bénéficier d’une réduction sur vos billets d’entrée, à condition de présenter votre statut étudiant(e). 
-
-Des activités sur la plage sont disponible pour vous avec des prix moins élevés qu’en dehors du Festival Sunset. En outre, les tarifs sont fexibles selon votre âge.
 </template>
 
 <script>
