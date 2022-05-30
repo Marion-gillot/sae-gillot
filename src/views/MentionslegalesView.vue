@@ -1,7 +1,7 @@
 <template>
-  <main>
+  <main class="bg-white text-black">
 
-<h1 class="mx-24 mt-20 font-bold">Mentions légales</h1>
+<h1 class="mx-24 mt-20 text-2xl font-bold pt-9">Mentions légales</h1>
 
     <div class="mx-24">
     <p class="mx-24 mt-10">
@@ -50,7 +50,7 @@
     <p class="mx-24 mt-10"><strong>Article 5 - Responsabilités</strong></p>
         
     <p class="mx-24 mt-10">La responsabilité de l'éditeur ne peut être engagée en cas de défaillance, panne, difficulté ou interruption de fonctionnement, empêchant l'accès au site ou à une de ses fonctionnalités. Le matériel de connexion au site que vous utilisez est sous votre entière responsabilité. Vous devez prendre toutes les mesures appropriées pour protéger votre matériel et vos propres données notamment d'attaques virales par Internet. Vous êtes par ailleurs seul responsable des sites et données que vous consultez. L'éditeur ne pourra être tenu responsable en cas de poursuites judiciaires à votre encontre :</p>
-        <ul>
+        <ul class="mx-24 mt-10">
             <li>
                 - du fait de l'usage du site ou de tout service accessible via Internet ;
             </li>
@@ -77,7 +77,7 @@
         Les informations personnelles pouvant être recueillies sur le site sont principalement utilisées par l'éditeur pour la gestion des relations avec vous, et le cas échéant pour le traitement de vos commandes.</p>
         
     <p class="mx-24 mt-10">Les données personnelles collectées sont les suivantes :</p>
-    <ul>
+    <ul class="mx-24 mt-10">
         <li>- nom et prénom</li>
         <li>- adresse mail</li>
         <li>- données financières : dans le cadre du paiement des produits et prestations proposés sur la Plateforme, celle-ci enregistre des données financières relatives à la carte de crédit de l'utilisateur.</li>
@@ -87,7 +87,7 @@
         
     <p class="mx-24 mt-10">En application de la réglementation applicable aux données à caractère personnel, les utilisateurs disposent des droits suivants :</p>
         
-    <ul>
+    <ul class="mx-24 mt-10">
         <li>• le droit d'accès : ils peuvent exercer leur droit d'accès, pour connaître les données personnelles les concernant, en écrivant à l'adresse électronique ci-dessous mentionnée. Dans ce cas, avant la mise en œuvre de ce droit, la Plateforme peut demander une preuve de l'identité de l'utilisateur afin d'en vérifier l'exactitude ;</li>
         <li>• le droit de rectification : si les données à caractère personnel détenues par la Plateforme sont inexactes, ils peuvent demander la mise à jour des informations ;</li>
         <li>• le droit de suppression des données : les utilisateurs peuvent demander la suppression de leurs données à caractère personnel, conformément aux lois applicables en matière de protection des données ;</li>
@@ -111,7 +111,7 @@
         
     <p class="mx-24 mt-10">Les données personnelles collectées auprès des utilisateurs ont pour objectif la mise à disposition des services de la Plateforme leur amélioration et le maintien d'un environnement sécurisé. La base légale des traitements est l'exécution du contrat entre 1 utilisateur et la plateforme. Plus précisément, les utilisations Sont les suivantes :</p>
         
-    <ul>
+    <ul class="mx-24 mt-10">
         <li>- accès et utilisation de la Plateforme par l'utilisateur ;</li>
         <li>- gestion du fonctionnement et optimisation de la Plateforme ;</li>
         <li>- mise en œuvre d'une assistance utilisateurs ;</li>
@@ -132,7 +132,7 @@
         
     <p class="mx-24 mt-10">Les données personnelles peuvent être partagées avec des sociétés tierces exclusivement dans l'Union européenne, dans les cas suivants:</p>
         
-    <ul>
+    <ul class="mx-24 mt-10">
         <li>- quand l'utilisateur utilise les services de paiement, pour la mise en œuvre de ces services, la Plateforme est en relation avec des sociétés bancaires et financières tierces avec lesquelles elle a passé des contrats ;</li>
         <li>- lorsque l'utilisateur publie, dans les zones de commentaires libres de la Plateforme, des informations accessibles au public ;</li>
         <li>- quand l'utilisateur autorise le site web d'un tiers à accéder à ses données ;</li>
@@ -163,7 +163,7 @@
         
         <p class="mx-24 mt-10">Les cookies suivants sont présents sur ce site :</p>
         <p class="mx-24 mt-10"> Cookies Google :</p>
-        <ul>
+        <ul class="mx-24 mt-10">
             <li>- Google analytics : permet de mesurer l'audience du site ;</li>       
             <li>- Google tag manager : facilite l'implémentation des tags sur les pages et permet de gérer les balises Google ;</li>
             <li>- Google Adsense : régie publicitaire de Google utilisant les sites web ou les vidéos YouTube comme support pour ses annonces</li>
@@ -184,7 +184,7 @@
           
         <p class="mx-24 mt-10"><strong>Article 16 - Contactez-nous</strong></p>
         
-        <p class="mx-24 mt-10">Pour toute question, information sur les produits présentés sur le site, ou concernant le site lui-même, vous pouvez laisser un message à l'adresse suivante : sunset@gmail.com</p>
+        <p class="mx-24 mt-10 pb-24">Pour toute question, information sur les produits présentés sur le site, ou concernant le site lui-même, vous pouvez laisser un message à l'adresse suivante : sunset@gmail.com</p>
         
 </div>
 

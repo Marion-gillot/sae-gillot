@@ -12,8 +12,8 @@ module.exports = {
        "bouton spotify - vert": "#53b657",
        "fond gris ": "#272727",
        "formulaire et composants - fond blanc": "#ffffff",
-       "fond 2 - footer": "#161616",
-       "fond 1 - footer": "#272727"
+       "fond2footer": "#161616",
+       "fond1footer": "#272727"
       },
       "fontSize": {
        "base": "1.25rem",
