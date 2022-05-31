@@ -69,7 +69,6 @@ module.exports = {
        "23xl": "5.0888671875rem",
        "full": "9999px"
 
-       
       }
       
      }
