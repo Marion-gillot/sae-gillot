@@ -1,6 +1,6 @@
 <template>
    
-    <div class="bg-[url('/img/cercle1.png')] w-1/3 h-80 bg-contain bg-no-repeat mx-96">
+    <div class="bg-[url('/img/cercle1.png')] w-1/3 h-80 bg-contain bg-no-repeat mx-96 ">
     <h1 class="-mx-64 mt-20 text-2xl font-bold pt-9 ">Concert du 30 Avril 2022</h1>
     <p class="-mx-64 mt-6 font-thin w-96 ">Le rappeur français Zola se rendra sur la scène de Sunset dans la soirée du 3O Avril à partir de 22H00 !</p>
     </div>

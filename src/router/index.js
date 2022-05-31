@@ -6,6 +6,7 @@ import ContactView from '../views/ContactView.vue'
 import ArtistesView from '../views/ArtistesView.vue'
 import ConcertView from '../views/ConcertView.vue'
 import ProgrammationView from '../views/ProgrammationView.vue'
+import ArtisteView from '../views/ArtisteView.vue'
 
 import GuidestyleView from '../views/GuidestyleView.vue'
 
@@ -19,6 +20,7 @@ const router = createRouter({
     { path: '/artistes', name: 'ArtistesView', component: ArtistesView },
     { path: '/concert', name: 'ConcertView', component: ConcertView },
     { path: '/programmation', name: 'ProgrammationView', component: ProgrammationView },
+    { path: '/artiste', name: 'ArtisteView', component: ArtisteView },
 
     { path: '/Guidestyle', name: 'GuidestyleView', component: GuidestyleView },
 

@@ -79,7 +79,7 @@
 
  <h4 class="mx-32">Header</h4>
 
-    <header class="bg-fondsite h-3 mb-10">
+    <header class="bg-fondsite h-3 pb-20">
     <nav class="flex">
     <div>
         <RouterLink to="/"><img src="public/img/logosunset.png" class="w-12 h-12 mx-7 my-5" /></RouterLink>
@@ -117,11 +117,6 @@
             </div>
 
 
-
-
-
-
-     
   <h2 class="text-2xl mx-32 mt-20 font-thin">Checkbox</h2>
 
      <div class="mb-12 mx-32 mt-10">

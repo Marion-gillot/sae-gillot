@@ -1,7 +1,7 @@
 <template>
 <main>
 
-   <div class="bg-[url('/img/hero-artistes.jpg')] w-screen h-screen bg-contain bg-no-repeat mt-20">
+   <div class="bg-[url('/img/hero-artistes.jpg')] w-full h-full bg-cover bg-no-repeat mt-20 grid place-content-cente">
         <p class=" text-2xl text-center p-80 ">Festival 20 au 21 Avril 2022</p>  
     </div>
 
@@ -32,9 +32,11 @@
     </div>
 
 <div class="flex flex-col justify-center items-center">
-      <button class="shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white mt-24 " type="button">
+  <a href="artiste">
+   <button class="shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white mt-24 " type="button">
         Plus de détails sur les artistes
       </button>
+  </a>
     </div>
 
 <h2 class="text-center text-illustrationrose text-2xl mt-16">Horaires</h2>
