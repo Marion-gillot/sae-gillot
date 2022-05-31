@@ -182,7 +182,7 @@ import EnveloppeView1 from "../component/EnveloppeView.vue";
 import PrixView from "../component/PrixView.vue";
 import PlaceView from "../component/PlaceView.vue";
 import TwitterView from "../component/TwitterView.vue";
-import FacebookView from "../component/FacebookView.vue";
+import FacebookView from "../component/facebookView.vue";
 import InstagramView from "../component/InstagramView.vue";
 
 import SkinautiqueView from "../component/SkinautiqueView.vue";

@@ -10,6 +10,7 @@ module.exports = {
     'imb4' : "url('/img/hero-programmation.jpg')",
     'imb5' : "url('/img/deco-rose.png')",
     'imb6' : "url('/img/hero-artiste.jpg')",
+    'imb7' : "url('/img/hero-home.jpg')",
   },
     
   theme: {
