@@ -16,8 +16,8 @@ module.exports = {
       "colors": {
        "fondsite": "#191919",
        "illustrationrose": "#ab468b",
-       "bouton newsletter et citation - orange": "#d56e64",
-       "bouton spotify - vert": "#53b657",
+       "boutonorange": "#d56e64",
+       "boutonvert": "#53b657",
        "fond gris ": "#272727",
        "formulaire et composants - fond blanc": "#ffffff",
        "fond2footer": "#161616",
