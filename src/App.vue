@@ -23,8 +23,8 @@ import Footer1 from "./Layout/footer.vue";
 
 
 
-  <RouterView />
- <footer class="h-64 bg-fondsite text-white ">
+ <RouterView />
+ <footer class="h-64 bg-fondsite text-white pt-32">
  <Footer1 />
  </footer>
 
