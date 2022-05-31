@@ -71,16 +71,28 @@
     <img src="public/img/cercle1.png" alt="cercle rose" class="w-64 -mt-36 mx-96 -z-20 ">
 </div>
 
-<SkinautiqueView/>
-<jetski-view />
-<BarView />
-<VolleyView />
+<div class="flex flex-col items-center justify-center mt-20">
 
+<div class="mt-20">
+    <SkinautiqueView/>
+    </div>
 
+    <div class="mt-20">
+        <jetski-view />
+    </div>
+        <div class="mt-20">
+        <BarView />
+    </div>
+        <div class="mt-20">    
+            <VolleyView />
+    </div>
+</div>
 
+    <p class="text-2xl text-center pt-32 pb-64">Mais surtout...</p>
 
-
-
+    <div class="bg-[url('/img/concert.jpg')] w-screen h-screen bg-contain bg-no-repeat">
+        <p class=" text-2xl text-center p-96 ">De la musique et encore de la musique !</p>  
+    </div>
 
 </template>
 

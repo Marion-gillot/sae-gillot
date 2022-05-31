@@ -3,6 +3,10 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
+  backgroundImage: {
+    'imb': "url('/img/concert.jpg')", 
+  },
+    
   theme: {
     extend: {
       "colors": {
@@ -59,7 +63,10 @@ module.exports = {
        "22xl": "3.71875rem",
        "23xl": "5.0888671875rem",
        "full": "9999px"
+
+       
       }
+      
      }
 
   },
