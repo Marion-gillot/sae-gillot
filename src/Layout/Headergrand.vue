@@ -1,10 +1,5 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import Footer1 from "./Layout/Footer.vue";
-</script>
-
 <template>
-  <header class="bg-fondsite h-3 mb-10">
+    <header class="bg-fondsite h-3 mb-10">
   <nav class="flex">
   <div>
      <RouterLink to="/"><img src="public/img/logosunset.png" class="w-12 h-12 mx-7 my-5" /></RouterLink>
@@ -20,19 +15,4 @@ import Footer1 from "./Layout/Footer.vue";
     </div>
   </nav>
   </header>
-
-
- <RouterView />
- <footer class="h-64 bg-fondsite text-white pt-32">
- <Footer1 />
- </footer>
-
-
 </template>
-
-<script>
-
-export default {
-  components: { },
-};
-</script>
