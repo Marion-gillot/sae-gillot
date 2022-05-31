@@ -14,7 +14,7 @@
 
  <h2 class="mx-24 mt-20 text-1xl font-bold pt-5">Notre équipe</h2>
 
- <div class="mx-72 mt-20 grid grid-cols-3">  
+ <div class="mx-72 mt-12 grid grid-cols-3">  
 
 
       <div class="place-content-center mt-10">
@@ -75,7 +75,7 @@
 </template>
 
 <script>
-import LocalisationView from "/src/component/LocalisationView.vue";
+import LocalisationView from "/src/component/Icons/LocalisationView.vue";
 export default {
   components: { LocalisationView },
 };

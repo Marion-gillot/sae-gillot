@@ -2,7 +2,7 @@
  
 
       <div class="bg-fond1footer h-56">
-        <nav class="flex">
+        <nav class="grid grid-cols-4">
       
       <ul class="mx-12 mt-9">
             <li class="w-56">Festival d'Arcachon
@@ -23,31 +23,29 @@
             <li>Nous contacter</li>
             <li>Portection de la vie privée</li>
         </ul>
-
         </nav>
 
-        <div class="flex w-20 float-right -mt-32">
-            <img src="./public/img/visa.jpg">
-            <img src="./public/img/cb.jpg">
+    <div class="flex ml-auto justify-end">
+            <img src="public/img/logo-mastercard.jpg" class="" >
+            <img src="public/img/logo-paypal.jpg">
         </div>
 
-        <div class="flex w-20 float-right -mt-11">
-            <img src="./public/img/paypal-logo.jpg">
-            <img src="./public/img/mastercard-logo.jpg">
-        </div>
-
-        <ul class="flex mt-7 w-20 float-right">
+        <ul class="flex ml-auto justify-end mt-7 ">
             <li><a href="https://www.facebook.com/profile.php?id=100009306961064" aria-label="Facebook">
-              <img src="/public/icon/facebook.png" alt="icone facebook"></a></li>
+              <img src="public/icon/facebook.png" alt="icone facebook"></a></li>
             <li><a href="https://www.linkedin.com/in/marion-gillot-8133a7224/" aria-label="Instagram">
-              <img src="./public/icon/instagram.png" alt="icone instagram"></a></li>
+              <img src="public/icon/instagram.png" alt="icone instagram"></a></li>
             <li><a href="https://twitter.com/1820Tc" aria-label="Twitter">
-              <img src="./public/icon/twitter.png" alt="icone twitter"></a></li>
+              <img src="public/icon/twitter.png" alt="icone twitter"></a></li>
             <li><a href="https://www.linkedin.com/in/marion-gillot-8133a7224/" aria-label="Likedin">
-              <img src="./public/icon/mmi.svg" alt="icone mmi"></a></li>
+              <img src="public/icon/mmi.svg" alt="icone mmi"></a></li>
         </ul>
-
       </div>
+
+
+        
+
+
 
   <div class="bg-gris-fonce-footer h-11">
       <nav class="flex">

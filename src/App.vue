@@ -1,5 +1,5 @@
 <script setup>
-import footer from "./Layout/footer.vue"
+import { RouterLink, RouterView } from 'vue-router'
 import Footer1 from "./Layout/footer.vue";
 </script>
 
@@ -24,7 +24,7 @@ import Footer1 from "./Layout/footer.vue";
 
 
   <RouterView />
- <footer class="block h-64 bg-fondsite text-white pt-36">
+ <footer class="h-64 bg-fondsite text-white pt-36">
  <Footer1 />
  </footer>
 

@@ -4,6 +4,7 @@ import MentionslegalesView from '../views/MentionslegalesView.vue'
 import AproposView from '../views/AproposView.vue'
 import ContactView from '../views/ContactView.vue'
 import ArtistesView from '../views/ArtistesView.vue'
+import ConcertView from '../views/ConcertView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,6 +14,7 @@ const router = createRouter({
     { path: '/contact', name: 'ContactView', component: ContactView },
     { path: '/apropos', name: 'AproposView', component: AproposView },
     { path: '/artistes', name: 'ArtistesView', component: ArtistesView },
+    { path: '/concert', name: 'ConcertView', component: ConcertView },
 
 
   ]
