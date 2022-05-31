@@ -75,7 +75,7 @@
 </template>
 
 <script>
-import LocalisationView from "/src/component/Icons/LocalisationView.vue";
+import LocalisationView from "/src/component/LocalisationView.vue";
 export default {
   components: { LocalisationView },
 };

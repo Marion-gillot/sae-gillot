@@ -72,7 +72,9 @@
 </div>
 
 <SkinautiqueView/>
-
+<jetski-view />
+<BarView />
+<VolleyView />
 
 
 
@@ -84,14 +86,19 @@
 
 <script>
 
-import LocalisationView from "/src/component/Icons/LocalisationView.vue";
-import TelephoneView from "/src/component/Icons/TelephoneView.vue";
-import EnveloppeView1 from "../component/Icons/EnveloppeView.vue";
-import PrixView from "../component/Icons/PrixView.vue";
+import LocalisationView from "/src/component/LocalisationView.vue";
+import TelephoneView from "/src/component/TelephoneView.vue";
+import EnveloppeView1 from "../component/EnveloppeView.vue";
+import PrixView from "../component/PrixView.vue";
+
+import SkinautiqueView from "../component/SkinautiqueView.vue";
+import JetskiView from "../component/JetskiView.vue";
+import BarView from "../component/BarView.vue";
+import VolleyView from "../component/VolleyView.vue";
 
 
 
 export default {
-  components: { LocalisationView, TelephoneView, PrixView, PrixView1, },
+  components: { LocalisationView, TelephoneView, PrixView, EnveloppeView1, SkinautiqueView, JetskiView, BarView, VolleyView },
 };
 </script>
