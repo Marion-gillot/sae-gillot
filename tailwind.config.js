@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   backgroundImage: {
-    'imb': "url('/img/concert.jpg')", 
+    'imb': "url('/img/concert.jpg')",
+    'imb2' : "url('/img/cercle1.png')",
+    'imb3' : "url('/img/hero-artistes.jpg')",
+    'imb4' : "url('/img/hero-programmation.jpg')",
+    'imb5' : "url('/img/deco-rose.png')",
   },
     
   theme: {

@@ -1,10 +1,12 @@
 <template>
 <main>
-    <img src="public/img/hero-artistes.jpg" alt="chanteur sur scène" class="pt-11 z-0">
-    <h1 class="place-content-evenly text-2xl z-20 -pt-96 text-center">Festival 20 au 21 Avril 2022</h1>
 
-    <p class="text-center mt-9">Du 20 au 21 Avril, Sunset accueillera sur sa scène les 4 rappeurs français les plus populaires du moment !</p>
-    <p class="text-center mt-2"> Qui sont-ils ?</p>
+   <div class="bg-[url('/img/hero-artistes.jpg')] w-screen h-screen bg-contain bg-no-repeat mt-20">
+        <p class=" text-2xl text-center p-80 ">Festival 20 au 21 Avril 2022</p>  
+    </div>
+
+    <p class="text-center mt-9 text-1xl">Du 10 au 21 Avril, Sunset accueillera sur sa scène les 4 rappeurs français les plus populaires du moment !</p>
+    <p class="text-center mt-2 text-1xl"> Qui sont-ils ?</p>
 
     <img src="public/img/artistes-presentation.png" alt="photos des artistes du festival" class="w-1/2 mx-auto mt-20">
 

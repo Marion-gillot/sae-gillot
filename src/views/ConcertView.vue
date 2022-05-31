@@ -1,10 +1,13 @@
 <template>
-    <h1 class="mx-24 mt-20 text-2xl font-bold pt-9 z-20">Concert du 30 Avril 2022</h1>
-    <p class="mx-24 mt-6 font-thin w-96 z-20">Le rappeur français Zola se rendra sur la scène de Sunset dans la soirée du 3O Avril à partir de 22H00 !</p>
-    <img src="public/img/cercle1.png" alt="cercle rose" class="w-64 -mt-36 mx-96 -z-20 ">
+   
+    <div class="bg-[url('/img/cercle1.png')] w-1/3 h-80 bg-contain bg-no-repeat mx-96">
+    <h1 class="-mx-64 mt-20 text-2xl font-bold pt-9 ">Concert du 30 Avril 2022</h1>
+    <p class="-mx-64 mt-6 font-thin w-96 ">Le rappeur français Zola se rendra sur la scène de Sunset dans la soirée du 3O Avril à partir de 22H00 !</p>
+    </div>
 
 
     <img src="public/img/Zola-1.jpg" alt="image de Zola" class="w-2/5 mt-28">
+    
 
     <div class="mx-96 z-10 -mt-96 absolute">
         <div class="w-3/7 bg-illustrationrose -z-20 p-10 ">
@@ -66,10 +69,11 @@
 
 <p class="text-center mt-20 w-3/6 mx-auto">Grâce à vos bracelets donnés à l’entrée du festival, vous pouvez bénéficier des réductions sur les activités sur la plage ! multipliez vos plaisirs et votre expériences grâce à Sunset !</p>
 
-<div class="mt-44">
-    <h1 class="mx-24 mt-20 text-2xl font-bold pt-9 z-30">Quelles activités ?</h1>
-    <img src="public/img/cercle1.png" alt="cercle rose" class="w-64 -mt-36 mx-96 -z-20 ">
-</div>
+
+    <div class="bg-[url('/img/cercle1.png')] w-1/3 h-80 bg-contain bg-no-repeat mx-52">
+        <h1 class="-mx-32 mt-20 text-2xl font-bold pt-9 ">Quelles activités ?</h1>
+    </div>
+
 
 <div class="flex flex-col items-center justify-center mt-20">
 
