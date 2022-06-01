@@ -52,7 +52,7 @@
 
       <div class="mt-10">
          <img src="/img/facebook-screen.jpg" alt="facebook" class="h-96">
-         <p class="text-center  w-60 mt-6">Facebook également sera toujours là pour vous tenir au courant des festivals, des dates et toutes autres informations...s</p>
+         <p class="text-center w-60 mt-6">Facebook également sera toujours là pour vous tenir au courant des festivals, des dates et toutes autres informations...s</p>
      </div>
 
       <div class="mt-10">
