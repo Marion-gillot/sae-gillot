@@ -105,10 +105,10 @@
     </div>
 </form>
 
-<h2 class="text-illustrationrose text-center text-3xl">Service client </h2>
+<h2 class="text-illustrationrose text-center sm:text-1xl md:text-1xl lg:text-2xl">Service client </h2>
 
-<div class="mx-72 mt-20 grid grid-cols-2 ">
-    <div class="bg-white h-52 w-96 rounded-8xl">
+<div class="mx-72 mt-20 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 gap-x-4 justify-items-center">
+    <div class="bg-white h-52 w-96 mb-10 rounded-8xl">
         <p class="text-black text-center pt-12">Appelez nous</p>
         <div class="flex">
             <TelephoneView class="mx-5 mt-5"/>

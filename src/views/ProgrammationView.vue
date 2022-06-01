@@ -2,14 +2,14 @@
     <main>
 
         <div class="bg-[url('/img/hero-programmation.jpg')] w-screen h-screen bg-cover bg-no-repeat mt-20 grid place-content-center">
-            <p class=" text-2xl text-center p-80 ">Nos prochains concerts...</p> 
+            <p class="sm:text-xl md:text-1xl lg:text-2xl text-center p-80 ">Nos prochains concerts...</p> 
         </div>
 
         <div class="bg-[url('/img/deco-rose.png')] w-screen h-screen bg-contain bg-no-repeat mt-20">
-            <p class=" text-2xl text-right p-80 ">Suivez et réservez les concerts de Sunset </p>
+            <p class="sm:text-xl md:text-1xl lg:text-2xl text-right p-80 ">Suivez et réservez les concerts de Sunset </p>
         </div>
 
-        <h2 class="mx-24 text-2xl font-bold mb-20">Prochainement</h2>
+        <h2 class="mx-24 sm:text-xl md:text-1xl lg:text-2xl font-bold mb-20">Prochainement</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4 justify-items-center">
             <CardView nom="PNL" date="20/04/2022" prix="75€/personne" titre="Deux frères" image="/img/pnl-card.png" />

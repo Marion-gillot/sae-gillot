@@ -24,10 +24,10 @@
         <img src="/img/jul-portrait.jpg" alt="portrait de jul" class="w-4/4" />
       </div>
       <div class="w-full  rounded-lg shadow-xl">
-        <img src="/img/gazo-portrait.jpg" alt="portrait de gazo"  class="w-4/4"/>
+        <img src="/img/gazo-portrait.jpg" alt="portrait de gazo" class="w-4/4"/>
       </div>
       <div class="w-full  rounded-lg shadow-xl">
-        <img src="/img/ziak-portrait.jpg" alt="portrait de ziak"  class="w-4/4"/>
+        <img src="/img/ziak-portrait.jpg" alt="portrait de ziak" class="w-4/4"/>
       </div>
     </div>
 
