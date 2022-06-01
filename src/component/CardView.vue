@@ -12,16 +12,16 @@
     <div class=" flex w-full flex-col gap-4 rounded px-8 ">
     <div class="flex justify-between">
         <div class="w-3/5">
-          <div class="flex items-center justify-between">
-            <p class="text-2xl font-bold text-illustrationrose">{{nom}}</p>
+          <div class="flex items-center justify-between pt-6">
+            <p class="text-1xl font-bold text-illustrationrose">{{nom}}</p>
           </div>
-          <p class="text-1xl font-bold text-black">{{date}}</p>
+          <p class="text-1lg text-black">{{date}}</p>
         </div>
       </div>
-      <p class="text-base font-normal text-black">
+      <p class="text-base text-black">
         {{prix}}
       </p>
-          <p class="text-base font-normal text-gray-500 text-1xl">
+          <p class="text-base text-gray-500 text-1xl">
         {{titre}}
       </p>
       

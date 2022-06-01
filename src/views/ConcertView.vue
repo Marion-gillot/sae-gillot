@@ -1,7 +1,7 @@
 <template>
    
     <div class="bg-[url('/img/cercle1.png')] w-1/3 h-80 bg-contain bg-no-repeat mx-96 ">
-    <h1 class="-mx-64 mt-20 text-2xl font-bold pt-9 ">Concert du 30 Avril 2022</h1>
+    <h1 class="-mx-64 mt-20 sm:text-1xl md:text-2xl lg:text-3xl font-bold pt-9 ">Concert du 30 Avril 2022</h1>
     <p class="-mx-64 mt-6 font-thin w-96 ">Le rappeur français Zola se rendra sur la scène de Sunset dans la soirée du 3O Avril à partir de 22H00 !</p>
     </div>
 
@@ -10,17 +10,17 @@
     
 
     <div class="mx-96 z-10 -mt-96 absolute">
-        <div class="w-3/7 bg-illustrationrose -z-20 p-10 ">
-          <h2 class="z-20 text-4xl">Zola</h2>
+        <div class="w-3/7 bg-illustrationrose -z-20 p-10">
+          <h2 class="z-20 sm:text-1xl md:text-2xl lg:text-3xl font-bold">Zola</h2>
           <div class="w-20 h-2 bg-white mb-10"></div>
           <p class="z-20">Le jeune artiste Zola partagera ses plus belles musiques sur scène tout au long de la soirée, avec son album “ Survie ” sortit en 2020. D’autres artistes comme Ninho et Koba la D se joingeront à la fête pour plus de folie comme “ Peapers ” ou encore “ FlashBack ”.</p>
         </div>
     </div>
 
 
-    <h2 class="mt-20 text-2xl font-bold mx-24">Quelles musiques ?</h2>
-    <div class="grid grid-cols-8 mx-32 mt-10">
-        <div class="h-28 w-3 bg-illustrationrose"></div>
+    <h2 class="mt-20 sm:text-1xl md:text-2xl lg:text-2xl font-bold mx-24">Quelles musiques ?</h2>
+    <div class="grid grid-cols-4 md:grid-cols-8 sm:grid-cols-8 justify-items-center mt-10">
+         <div class="h-28 w-3 bg-illustrationrose"></div>
         <ul>
             <li>Les puristes </li>
             <li>Le sauveur </li>
@@ -71,7 +71,7 @@
 
 
     <div class="bg-[url('/img/cercle1.png')] w-1/3 h-80 bg-contain bg-no-repeat mx-52">
-        <h1 class="-mx-32 mt-20 text-2xl font-bold pt-9 ">Quelles activités ?</h1>
+        <h1 class="-mx-32 mt-20 sm:text-1xl md:text-1xl lg:text-2xl font-bold pt-9 ">Quelles activités ?</h1>
     </div>
 
 
@@ -92,10 +92,10 @@
     </div>
 </div>
 
-    <p class="text-2xl text-center pt-32 pb-64">Mais surtout...</p>
+    <p class=" sm:text-1xl md:text-2xl lg:text-2xl font-bold text-center pt-32 pb-64">Mais surtout...</p>
 
     <div class="bg-[url('/img/concert.jpg')] w-screen h-screen bg-contain bg-no-repeat">
-        <p class=" text-2xl text-center p-96 ">De la musique et encore de la musique !</p>  
+        <p class="  sm:text-1xl md:text-2xl lg:text-2xl font-bold  text-center p-96 ">De la musique et encore de la musique !</p>  
     </div>
 
 </template>

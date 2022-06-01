@@ -9,18 +9,17 @@
     <h2 class="text-illustrationrose sm:text-2xl md:text-2xl lg:text-3xl font-bold ml-24 mt-32">01. PNL</h2>
     
     <div class="relative flex w-full overflow-x-auto pt-9">
-      <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="/img/pnl-3.jpeg" alt="image du groupe pnl" class="max-h-96" />
-      </div>
+        <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
+          <img src="/img/pnl-3.jpeg" alt="image du groupe pnl" class="max-h-96" />
+        </div>
 
-      <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="/img/pnl-5.jpeg" alt="image du groupe pnl" class="max-h-96" />
-      </div>
-            <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="/img/pnl-4.jpeg" alt="image du groupe pnl" class="-max-h-96" />
-      </div>
-      
-</div>
+        <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
+          <img src="/img/pnl-5.jpeg" alt="image du groupe pnl" class="max-h-96" />
+        </div>
+              <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
+          <img src="/img/pnl-4.jpeg" alt="image du groupe pnl" class="-max-h-96" />
+        </div>
+    </div>
 
 <p class="mx-24 w-3/4 mt-10">PNL ( qui signifie Peace N Lové ) est qualifié comme le meilleur duo du rap Français. Mondialement connu, le groupe est composé de deux frères Ademo et N.O.S, sous leurs vrais noms : Tarik et Nabil Andrieu, originaires de la cité des Tarterêts à Corbeil-Essonnes dans le 91. </p>
 <p class="mx-24 w-3/4 mt-10">PNL se distingue par un style musical décrit comme cru, hypnotique et émouvant qui souffle un vent frais sur le rap Français. Malgré leurs succès fous, ces deux personnes restent modeste, humble, et n’oublient surtout pas ce qu’ils étaient avant. Synonyme de succès fou et de révolution rapologique. Ils visent toujours plus haut, ce qui me reflète totalement. Un amour fraternel et familial très puissant, des paroles à plusieurs significations pour cacher qui nous sommes réellement. </p>

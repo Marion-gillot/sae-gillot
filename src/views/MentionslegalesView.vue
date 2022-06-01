@@ -1,7 +1,7 @@
 <template>
   <main class="bg-white text-black">
 
-<h1 class="mx-24 mt-20 text-2xl font-bold pt-9">Mentions légales</h1>
+<h1 class="mx-24 mt-20 sm:text-1xl md:text-2xl lg:text-3xl font-bold pt-9">Mentions légales</h1>
 
     <div class="mx-24">
     <p class="mx-24 mt-10">

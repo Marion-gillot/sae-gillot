@@ -1,5 +1,5 @@
 <template>
-   <h1 class="mx-24 mt-20 sm:text-xl md:text-1xl lg:text-2xl font-bold pt-9">À propos de Sunset</h1>
+   <h1 class="mx-24 mt-20 sm:text-1xl md:text-2xl lg:text-3xl font-bold pt-9">À propos de Sunset</h1>
 
    <h2 class="mx-24 mt-20 text-1xl font-bold pt-9">Notre mission</h2>
    <p class="mx-24 mt-10">Nous avons comme mission la musique une source de bien être pour tous, et accessible à tous. Nous nous engageons à aider les plus jeunes à pouvoir participer à nos festivals, afin d’apporter une source d’évasion à travers les musiques de nos artistes les plus talentueux. </p>

@@ -52,7 +52,7 @@
 
         <div class="mt-10">
           <img src="/img/facebook-screen.jpg" alt="facebook" class="h-96">
-          <p class="text-center w-60 mt-6">Facebook également sera toujours là pour vous tenir au courant des festivals, des dates et toutes autres informations...s</p>
+          <p class="text-center w-60 mt-6">Facebook également sera toujours là pour vous tenir au courant des festivals, des dates et toutes autres informations...</p>
         </div>
 
         <div class="mt-10">
@@ -62,10 +62,21 @@
     </div>
 
     <h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose text-center mt-24">Rejoignez nous sur Spotify pour plus de rythme !</h2>
-    <p class="mx-24 mt-20 text-center">Ne manquez pas les tendances du moments ! rejoignez notre compte spotify avec 3 mois offerts !</p>
+    <p class="mt-20 w-96 mx-auto text-center mb-8">Ne manquez pas les tendances du moments ! Rejoignez notre compte spotify avec 3 mois offerts !</p>
 
+    <div class="relative flex w-full overflow-x-auto pt-9">
+        <div class="w-3/4 shrink-0 rounded-lg shadow-xl">
+          <img src="/img/spotify1.jpg" alt="image du groupe pnl" />
+        </div>
 
-    <img src="/img/spotify1.jpg" alt="playlist rihanna" class="mx-auto mt-20 w-3/5">
+        <div class="w-3/4 shrink-0 rounded-lg shadow-xl">
+          <img src="/img/spotify-2.jpg" alt="image du groupe pnl" />
+        </div>
+              <div class="w-3/4 shrink-0 rounded-lg shadow-xl">
+          <img src="/img/spotify-3.jpg" alt="image du groupe pnl" />
+        </div>
+    </div>
+
       
     <div class=" grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 mt-20">
         <div>

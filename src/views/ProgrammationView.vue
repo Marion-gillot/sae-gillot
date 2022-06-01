@@ -2,7 +2,7 @@
     <main>
 
         <div class="bg-[url('/img/hero-programmation.jpg')] w-screen h-screen bg-cover bg-no-repeat mt-20 grid place-content-center">
-            <p class="sm:text-xl md:text-1xl lg:text-2xl text-center p-80 ">Nos prochains concerts...</p> 
+            <p class="sm:text-xl md:text-1xl lg:text-2xl font-bold text-center p-80 ">Nos prochains concerts...</p> 
         </div>
 
         <div class="bg-[url('/img/deco-rose.png')] w-screen h-screen bg-contain bg-no-repeat mt-20">
