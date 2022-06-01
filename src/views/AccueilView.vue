@@ -3,7 +3,7 @@
 
     <div class="bg-[url('/img/hero-home.jpg')] w-screen h-screen bg-contain bg-no-repeat">
       <div class="pt-24">
-          <h1 class="mx-24 text-5xl font-bold ">Sunset</h1>
+          <h1 class="mx-24 text-2xl sm:text-3xl md:text-4xl font-bold ">Sunset</h1>
           <p class="mx-28 text-white text-2xl w-96 ">Plongé dans l’univers musical et chaleureux sur le sable de Sunset </p>
       </div>
     </div>
