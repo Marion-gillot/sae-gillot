@@ -8,7 +8,7 @@
     <p class="text-center mt-9 text-1xl">Du 10 au 21 Avril, Sunset accueillera sur sa scène les 4 rappeurs français les plus populaires du moment !</p>
     <p class="text-center mt-2 text-1xl"> Qui sont-ils ?</p>
 
-    <img src="public/img/artistes-presentation.png" alt="photos des artistes du festival" class="w-1/2 mx-auto mt-20">
+    <img src="/img/artistes-presentation.png" alt="photos des artistes du festival" class="w-1/2 mx-auto mt-20">
 
 <div class="mt-20 mx-auto flex justify-center">
     <div class="w-[477px] h-[122px] bg-transparent border-[3px] border-illustrationrose">
@@ -18,16 +18,16 @@
 
 <div class="relative flex w-full overflow-x-auto mt-44 ">
       <div class="w-full  rounded-lg shadow-xl">
-        <img src="public/img/pnl-portrait.jpg" alt="portrait de pnl" class="w-4/4" />
+        <img src="/img/pnl-portrait.jpg" alt="portrait de pnl" class="w-4/4" />
       </div>
       <div class="w-full  rounded-lg shadow-xl">
-        <img src="public/img/jul-portrait.jpg" alt="portrait de jul" class="w-4/4" />
+        <img src="/img/jul-portrait.jpg" alt="portrait de jul" class="w-4/4" />
       </div>
       <div class="w-full  rounded-lg shadow-xl">
-        <img src="public/img/gazo-portrait.jpg" alt="portrait de gazo"  class="w-4/4"/>
+        <img src="/img/gazo-portrait.jpg" alt="portrait de gazo"  class="w-4/4"/>
       </div>
       <div class="w-full  rounded-lg shadow-xl">
-        <img src="public/img/ziak-portrait.jpg" alt="portrait de ziak"  class="w-4/4"/>
+        <img src="/img/ziak-portrait.jpg" alt="portrait de ziak"  class="w-4/4"/>
       </div>
     </div>
 
@@ -56,10 +56,10 @@
 
 
 <div class="flex space-x-10 mt-24  justify-center items-center">
-    <img src="public/img/qr-code.png" alt="QR code de l'évenement" class="w-56">
+    <img src="/img/qr-code.png" alt="QR code de l'évenement" class="w-56">
 
     <div><p class="mb-8 mt-11">L’équipe Sunset vous remercie !</p>
-    <img src="public/img/logosunset.png" alt="logo sunset" class="w-32 h-32"></div>
+    <img src="/img/logosunset.png" alt="logo sunset" class="w-32 h-32"></div>
  
 </div>
 

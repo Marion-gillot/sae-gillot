@@ -10,14 +10,14 @@
     
     <div class="relative flex w-full overflow-x-auto pt-24">
       <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/pnl-3.jpeg" alt="image du groupe pnl" class="max-h-96" />
+        <img src="/img/pnl-3.jpeg" alt="image du groupe pnl" class="max-h-96" />
       </div>
 
       <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/pnl-5.jpeg" alt="image du groupe pnl" class="max-h-96" />
+        <img src="/img/pnl-5.jpeg" alt="image du groupe pnl" class="max-h-96" />
       </div>
             <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/pnl-4.jpeg" alt="image du groupe pnl" class="-max-h-96" />
+        <img src="/img/pnl-4.jpeg" alt="image du groupe pnl" class="-max-h-96" />
       </div>
       
 </div>
@@ -27,12 +27,12 @@
 
 <div class="flex justify-center items-center space-x-60 pt-20 pb-32 ">
     <div>
-        <img src="public/img/ademo.png" alt="photo d'Ademo">
+        <img src="/img/ademo.png" alt="photo d'Ademo">
         <p class="text-center mt-6">Ademo</p>
     </div>
 
     <div>
-        <img src="public/img/NOS.png" alt="photo d'N.O.S">
+        <img src="/img/NOS.png" alt="photo d'N.O.S">
         <p class="text-center mt-6">N.O.S</p>
     </div>
 </div>
@@ -50,14 +50,14 @@
     
     <div class="relative flex w-full overflow-x-auto pt-24">
       <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/jul-1.jpeg" alt="image de Jul" class="max-h-96" />
+        <img src="/img/jul-1.jpeg" alt="image de Jul" class="max-h-96" />
       </div>
 
       <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/jul-2.jpeg" alt="image de Jul" class="max-h-96" />
+        <img src="/img/jul-2.jpeg" alt="image de Jul" class="max-h-96" />
       </div>
             <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/jul-3.jpeg" alt="image de Jul" class="max-h-96" />
+        <img src="/img/jul-3.jpeg" alt="image de Jul" class="max-h-96" />
       </div>
 $
 </div>
@@ -92,13 +92,13 @@ $
     <div class="relative flex w-full overflow-x-auto pt-24">
 
       <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/ziak.png" alt="image de Ziak" class="max-h-96" />
+        <img src="/img/ziak.png" alt="image de Ziak" class="max-h-96" />
       </div>
             <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/ziak-2.jpeg" alt="image de Ziak" class="max-h-96" />
+        <img src="/img/ziak-2.jpeg" alt="image de Ziak" class="max-h-96" />
       </div>
       <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/ziak-3.jpeg" alt="image de Ziak" class="max-h-96" />
+        <img src="/img/ziak-3.jpeg" alt="image de Ziak" class="max-h-96" />
       </div>
 </div>
 
@@ -115,14 +115,14 @@ Avec une communication très restreinte, les commentaires sur ses clips sont rap
     
     <div class="relative flex w-full overflow-x-auto pt-24">
       <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/gazo-1.jpeg" alt="image de Gazo" class="max-h-96" />
+        <img src="/img/gazo-1.jpeg" alt="image de Gazo" class="max-h-96" />
       </div>
 
       <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/gazo-2.jpeg" alt="image de Gazo" class="max-h-96" />
+        <img src="/img/gazo-2.jpeg" alt="image de Gazo" class="max-h-96" />
       </div>
             <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
-        <img src="public/img/gazo-3.jpeg" alt="image de Gazo" class="max-h-96" />
+        <img src="/img/gazo-3.jpeg" alt="image de Gazo" class="max-h-96" />
       </div>
 </div>
 

@@ -9,44 +9,44 @@
 <div class="flex">
     <LocalisationView class="mx-24 mt-10"/>
     <p class="mt-14 w-48">Boulevard Promenade Veyrier Montagnères 33120 Arcachon</p>
-    <img src="public/img/map.jpg" class="rounded-10xl mx-60 h-80" alt="carte du lieu du festival">
+    <img src="/img/map.jpg" class="rounded-10xl mx-60 h-80" alt="carte du lieu du festival">
 </div>
 
  <h2 class="mx-24 mt-20 text-1xl font-bold pt-5">Notre équipe</h2>
 
  <div class="mx-72 mt-12 grid grid-cols-3">  
       <div class="place-content-center mt-10">
-         <img src="public/img/bulle-1.png" alt="travailleur 3">
+         <img src="/img/bulle-1.png" alt="travailleur 3">
          <p class="text-center mt-6">Lilian Girard</p>
          <p class="text-center">Comptable</p>
      </div>
 
       <div class="place-content-center mt-10">
-         <img src="public/img/bulle-2.png" alt="travailleur 3">
+         <img src="/img/bulle-2.png" alt="travailleur 3">
          <p class="text-center mt-6">Lola Porte</p>
          <p class="text-center">Préparatrice événementiel</p>
      </div>
 
       <div class="place-content-center mt-10">
-         <img src="public/img/bulle-3.png" alt="travailleur 3">
+         <img src="/img/bulle-3.png" alt="travailleur 3">
          <p class="text-center mt-6">Lilian Girard</p>
          <p class="text-center">Comptable</p>
      </div>
 
       <div class="place-content-center mt-10">
-         <img src="public/img/bulle-4.png" alt="travailleur 3">
+         <img src="/img/bulle-4.png" alt="travailleur 3">
          <p class="text-center mt-6">Hugot Flory</p>
          <p class="text-center">Gestion des partenariats</p>
      </div>
 
       <div class="place-content-center mt-10">
-         <img src="public/img/bulle-5.png" alt="travailleur 3">
+         <img src="/img/bulle-5.png" alt="travailleur 3">
          <p class="text-center mt-6">Christian Let</p>
          <p class="text-center">Costumier</p>
      </div>
 
       <div class="place-content-center mt-10">
-         <img src="public/img/bulle-6.png" alt="travailleur 3">
+         <img src="/img/bulle-6.png" alt="travailleur 3">
          <p class="text-center mt-6">Lucie Safir</p>
          <p class="text-center">Chargé de communication sur les réseaux sociaux</p>
      </div>

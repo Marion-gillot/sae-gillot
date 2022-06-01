@@ -1,7 +1,7 @@
 <template>
     <div class="w-[915px] h-[309px] relative">
   <img
-    src="public/img/activite-ski-nautique.jpg"
+    src="/img/activite-ski-nautique.jpg"
     class="w-[460.98px] h-[309px] absolute left-[-1px] top-[-1px] rounded-[40px] object-cover"
   />
   <div

@@ -7,7 +7,7 @@ import Footer1 from "./Layout/Footer.vue";
   <header class="bg-fondsite h-3 mb-10">
   <nav class="flex">
   <div>
-     <RouterLink to="/"><img src="public/img/logosunset.png" class="h-12 mx-7 my-5" /></RouterLink>
+     <RouterLink to="/"><img src="/img/logosunset.png" class="h-12 mx-7 my-5" /></RouterLink>
      
   </div>
   

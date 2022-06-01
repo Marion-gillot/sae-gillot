@@ -6,7 +6,7 @@
     </div>
 
 
-    <img src="public/img/Zola-1.jpg" alt="image de Zola" class="w-2/5 mt-28">
+    <img src="/img/Zola-1.jpg" alt="image de Zola" class="w-2/5 mt-28">
     
 
     <div class="mx-96 z-10 -mt-96 absolute">
@@ -51,7 +51,7 @@
     </div>
 
 
-    <img src="public/img/Zola-2.jpg" alt="image de Zola" class="w-3/5 mt-28 ml-auto z-30 ">
+    <img src="/img/Zola-2.jpg" alt="image de Zola" class="w-3/5 mt-28 ml-auto z-30 ">
     
     <div class="-mt-32 -z-20">
         <div class="bg-illustrationrose w-3/6 h-96 p-10">

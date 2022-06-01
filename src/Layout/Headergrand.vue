@@ -2,7 +2,7 @@
     <header class="bg-fondsite h-3 mb-10">
   <nav class="flex">
   <div>
-     <RouterLink to="/"><img src="public/img/logosunset.png" class="w-12 h-12 mx-7 my-5" /></RouterLink>
+     <RouterLink to="/"><img src="/img/logosunset.png" class="w-12 h-12 mx-7 my-5" /></RouterLink>
      
   </div>
   
