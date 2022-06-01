@@ -11,5 +11,23 @@
 
         <h2 class="mx-24 text-2xl font-bold mb-20">Prochainement</h2>
 
+    <div class="grid grid-cols-3">
+        <CardView nom="Hatik" date="30/05/2022" prix="26€/personne" titre="noyé-tour" />
+        <CardView nom="Hatik" date="30/05/2022" prix="26€/personne" titre="noyé-tour" />
+
+    </div>
+
+
     </main>
 </template>
+
+<script>
+import LocalisationView from "/src/component/LocalisationView.vue";
+import TelephoneView from "/src/component/TelephoneView.vue";
+import EnveloppeView1 from "../component/EnveloppeView.vue";
+import CardViewVue from "../component/CardView.vue";
+
+export default {
+  components: { LocalisationView, TelephoneView, EnveloppeView1, CardView },
+};
+</script>

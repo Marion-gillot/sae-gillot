@@ -3,19 +3,17 @@
 
     <div class="bg-[url('/img/hero-home.jpg')] w-screen h-screen bg-contain bg-no-repeat">
       <div class="pt-24">
-          <h1 class="mx-24 text-2xl sm:text-3xl md:text-4xl font-bold ">Sunset</h1>
-          <p class="mx-28 text-white text-2xl w-96 ">Plongé dans l’univers musical et chaleureux sur le sable de Sunset </p>
+          <h1 class="mx-24 text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold ">Sunset</h1>
+          <p class="mx-24 text-white sm:text-xl md:text-1xl lg:text-2xl ">Plongé dans l’univers musical et chaleureux sur le sable de Sunset </p>
       </div>
     </div>
 
-  <h2 class="text-3xl text-illustrationrose mx-24">Les actualités</h2>
+  <h2 class="sm:text-xl md:text-1xl lg:text-2xl  text-illustrationrose mx-24">Les actualités</h2>
 
- <div class=" mt-12 grid grid-cols-3 justify-items-center">  
-
-
-      <div class="mt-10">
+ <div class=" mt-12 grid grid-cols-3 gap-x-4 justify-items-center">  
+      <div class="mt-10 repeat-auto feat">
          <img src="public/img/actualite1.png" alt="actualités de sunset">
-         <p class="text-center mt-6">Comment réserver ?</p>
+         <p class="text-center mt-6 sm:text-1xl md:text-1xl lg:text-1xl ">Comment réserver ?</p>
      </div>
 
       <div class="mt-10">
@@ -46,25 +44,26 @@
 
 <h2 class="text-3xl text-illustrationrose mx-24 mt-24">Restez connecté !</h2>
 
-<div class="mt-20">
-  <div class="flex mb-4">
-    <img src="public/icon/instagram.png" alt="logo d'instagram" class="mx-24">
-    <p class="w-3/6">Ne manquez pas nos aventures sur instagram ! De nombreuses annonces sont publiées chaques semaines fin de garder le rythme de la festivité !</p>
-  </div>
+<div class=" mt-12 grid grid-cols-3 gap-x-4 justify-items-center">  
+      <div class="mt-10 repeat-auto feat">
+         <img src="public/img/insta-screen.jpg" alt="instagram" class="h-96">
+         <p class="text-center w-60 mt-6 sm:text-1xl md:text-1xl lg:text-1xl ">Ne manquez pas nos aventures sur instagram ! De nombreuses annonces sont publiées chaques semaines fin de garder le rythme de la festivité !</p>
+     </div>
 
-    <div class="flex mb-4">
-    <img src="public/icon/facebook.png" alt="logo de facebook" class="mx-24">
-    <p class="w-3/6">Facebook également sera toujours là pour vous tenir au courant des festivals, des dates et toutes autres informations...</p>
-  </div>
+      <div class="mt-10">
+         <img src="public/img/facebook-screen.jpg" alt="facebook" class="h-96">
+         <p class="text-center  w-60 mt-6">Facebook également sera toujours là pour vous tenir au courant des festivals, des dates et toutes autres informations...s</p>
+     </div>
 
-    <div class="flex mb-4">
-    <img src="public/icon/twitter.png" alt="logo de twitter" class="mx-24">
-    <p class="w-3/6">Twitter vous propose chaque jours, de nouveaux artistes, et de nouvelles musiques</p>
-  </div>
-
-<h2 class="text-2xl text-illustrationrose mx-24 mt-24">Rejoignez nous sur Spotify pour plus de rythme !</h2>
-<p class="mx-24 mt-20 text-center">Ne manquez pas les tendances du moments ! rejoignez notre compte spotify avec 3 mois offerts !</p>
+      <div class="mt-10">
+         <img src="public/img/twitter-screen.jpg" alt="twitter" class="h-96">
+         <p class="text-center w-60 mt-6">Twitter vous propose chaque jours, de nouveaux artistes, et de nouvelles musiques</p>
+     </div>
 </div>
+
+<h2 class="text-2xl text-illustrationrose text-center mt-24">Rejoignez nous sur Spotify pour plus de rythme !</h2>
+<p class="mx-24 mt-20 text-center">Ne manquez pas les tendances du moments ! rejoignez notre compte spotify avec 3 mois offerts !</p>
+
 
   <img src="public/img/spotify1.jpg" alt="playlist rihanna" class="mx-auto mt-20 w-3/5">
   
@@ -111,11 +110,6 @@
       </div>    
       </div>
 </div>
-
-
-
-
-
 
   </main>
 </template>

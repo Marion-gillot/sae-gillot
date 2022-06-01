@@ -15,8 +15,6 @@
  <h2 class="mx-24 mt-20 text-1xl font-bold pt-5">Notre équipe</h2>
 
  <div class="mx-72 mt-12 grid grid-cols-3">  
-
-
       <div class="place-content-center mt-10">
          <img src="public/img/bulle-1.png" alt="travailleur 3">
          <p class="text-center mt-6">Lilian Girard</p>
