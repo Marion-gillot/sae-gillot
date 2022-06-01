@@ -11,7 +11,7 @@ import Footer1 from "./Layout/Footer.vue";
      
   </div>
   
-  <div class="flex mt-8 space-x-8 font-roboto text-white">
+  <div class="flex mt-8 space-x-8 font-roboto-light text-white">
     <RouterLink to="/concert">Concert</RouterLink>
     <RouterLink to="/programmation">Programmation</RouterLink>
     <RouterLink to="/artistes">Artistes</RouterLink>

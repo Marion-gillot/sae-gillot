@@ -1,6 +1,6 @@
 <template>
     
-<div class="relative mx-auto mb-5 flex  flex-col bg-white">
+<div class="relative mx-auto mb-5 flex flex-col rounded-10xl bg-white">
 
    
 <div class="flex"> 
@@ -9,9 +9,9 @@
 <div> 
 
 
-    <div class=" flex w-full flex-col gap-4 rounded px-5 ">
+    <div class=" flex w-full flex-col gap-4 rounded px-8 ">
     <div class="flex justify-between">
-        <div class="w-2/5">
+        <div class="w-3/5">
           <div class="flex items-center justify-between">
             <p class="text-2xl font-bold text-illustrationrose">{{nom}}</p>
           </div>

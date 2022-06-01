@@ -4,7 +4,6 @@ import router from './router'
 import './index.css'
 
 const app = createApp(App)
-  // Your web app's Firebase configuration
   const firebaseConfig = {
     apiKey: "AIzaSyB4eSJog62GJdnK_u8yhtR6fT61nNiv21o",
     authDomain: "sae203-marion-gillot.firebaseapp.com",

@@ -24,8 +24,7 @@
         <CardView nom="Klem" date="17/07/2022" prix="32€/personne" titre="Visions" image="/img/klem-card.jpg" /> 
         <CardView nom="Gazo" date="20/04/2022" prix="32€/personne" titre="Drill FR" image="/img/gazo-card.jpg" />   
         <CardView nom="Jul" date="20/04/2022" prix="42€/personne" titre="La zone en personne" image="/img/jul-card.jpg" />   
-
-</div>
+    </div>
 
 
     </main>
