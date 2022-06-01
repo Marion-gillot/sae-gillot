@@ -1,6 +1,6 @@
 <template>
     
-<div class="relative mx-auto mb-5 flex flex-col rounded-10xl bg-white">
+<div class="relative mx-auto mb-20 flex flex-col rounded-10xl bg-white">
 
    
 <div class="flex"> 

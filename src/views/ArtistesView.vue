@@ -16,7 +16,7 @@
     </div>
 </div>
 
-<div class="relative flex w-full overflow-x-auto mt-44 ">
+<div class="relative flex w-full overflow-x-auto mt-32 ">
       <div class="w-full  rounded-lg shadow-xl">
         <img src="/img/pnl-portrait.jpg" alt="portrait de pnl" class="w-4/4" />
       </div>
@@ -42,11 +42,11 @@
 <h2 class="text-center text-illustrationrose text-2xl mt-16">Horaires</h2>
 
     <div class="flex flex-col justify-center items-center">
-        <div class="bg-white w-3/6 1/3 rounded-12 mx-32 mt-20">
+        <div class="bg-white w-3/6 1/3 rounded-12 mx-32 mt-20 rounded-10xl">
                 <p class="text-black text-center p-4">Mercredi 20 Avril : 22h30 à 4h00 avec PNL et jul</p>
         </div>
 
-        <div class="bg-white w-3/6 1/3 rounded-12 mx-32 mt-20">
+        <div class="bg-white w-3/6 1/3 rounded-12 mx-32 mt-20 rounded-10xl">
                 <p class="text-black text-center p-4">Jeudi 21 Avril : 22h30 à 4h00 avec Ziak et Gazo</p>
         </div>
     </div>

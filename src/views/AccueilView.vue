@@ -10,8 +10,8 @@
 
     <h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose font-bold mx-24">Les actualités</h2>
 
-    <div class=" mt-12 grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4 justify-items-center">  
-        <div class="mt-10 repeat-auto feat">
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4 justify-items-center">  
+        <div class="mt-10">
           <img src="/img/actualite1.png" alt="actualités de sunset">
           <p class="text-center mt-6 sm:text-1xl md:text-1xl lg:text-1xl ">Comment réserver ?</p>
         </div>
@@ -44,8 +44,8 @@
 
     <h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose mx-24 mt-24 font-bold">Restez connecté !</h2>
 
-    <div class=" mt-12  grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4 justify-items-center">  
-        <div class="mt-10 repeat-auto feat">
+    <div class="mt-12  grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4 justify-items-center">  
+        <div class="mt-10">
           <img src="/img/insta-screen.jpg" alt="instagram" class="h-96">
           <p class="text-center w-60 mt-6 sm:text-1xl md:text-1xl lg:text-1xl ">Ne manquez pas nos aventures sur instagram ! De nombreuses annonces sont publiées chaques semaines fin de garder le rythme de la festivité !</p>
         </div>
