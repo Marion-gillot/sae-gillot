@@ -55,8 +55,9 @@
 </div>
 
 
-    <img src="public/img/img-a-propos.jpg" alt="photo d'un concert" class="z-0 mt-24">
-    <h2 class="z-10 text-2xl text-center">Une innovation écologique et économique</h2>
+    <div class="bg-[url('/img/img-a-propos.jpg')] bg-cover w-screen h-screen bg-no-repeat mt-20 grid place-content-center ">
+        <h2 class="z-10 text-3xl text-center">Une innovation écologique et économique</h2>
+    </div>
 
     <h2 class="mx-24 mt-20 text-1xl font-bold pt-5">Nous sommes responsable de toute forme de dégradation environnemental ou bien public</h2>
     <p class="mx-24 mt-10 w-7/12">C’est pour cela que nous encourageons vivement les particpants du festival à prendre soin des lieux. Au delà de ça, nos bénévolats participent au nettoyage de la plage ainsi qu’au ramassage de déchets pouvant se retrouver dans la mer. La protection de l’environnement </p>

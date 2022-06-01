@@ -11,10 +11,13 @@ module.exports = {
     'imb5' : "url('/img/deco-rose.png')",
     'imb6' : "url('/img/hero-artiste.jpg')",
     'imb7' : "url('/img/hero-home.jpg')",
+    'imb8' : "url('/img/img-a-propos.jpg')",
   },
     
   theme: {
     extend: {
+      darkMode: 'class',
+
       "colors": {
        "fondsite": "#191919",
        "illustrationrose": "#ab468b",

@@ -20,8 +20,7 @@
 
       <div class="mt-10">
          <img src="public/img/actualite2.png" alt="actualités de sunset">
-         <p class="text-center mt-6">Lola Porte</p>
-         <p class="text-center">Les rencontres</p>
+         <p class="text-center mt-6">Les rencontres</p>
      </div>
 
       <div class="mt-10">
