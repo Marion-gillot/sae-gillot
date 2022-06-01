@@ -8,7 +8,7 @@
       </div>
     </div>
 
-  <h2 class="sm:text-xl md:text-1xl lg:text-2xl  text-illustrationrose mx-24">Les actualités</h2>
+  <h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose mx-24">Les actualités</h2>
 
  <div class=" mt-12 grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4 justify-items-center">  
       <div class="mt-10 repeat-auto feat">
@@ -42,7 +42,7 @@
      </div>
 </div>
 
-<h2 class="text-3xl text-illustrationrose mx-24 mt-24">Restez connecté !</h2>
+<h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose mx-24 mt-24">Restez connecté !</h2>
 
 <div class=" mt-12  grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4 justify-items-center">  
       <div class="mt-10 repeat-auto feat">
@@ -61,16 +61,16 @@
      </div>
 </div>
 
-<h2 class="text-2xl text-illustrationrose text-center mt-24">Rejoignez nous sur Spotify pour plus de rythme !</h2>
+<h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose text-center mt-24">Rejoignez nous sur Spotify pour plus de rythme !</h2>
 <p class="mx-24 mt-20 text-center">Ne manquez pas les tendances du moments ! rejoignez notre compte spotify avec 3 mois offerts !</p>
 
 
   <img src="/img/spotify1.jpg" alt="playlist rihanna" class="mx-auto mt-20 w-3/5">
   
-  <div class="grid grid-cols-2 mt-20">
+  <div class=" grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 mt-20">
     <div>
-      <p class="mx-24 w-96 mt-28">Profitez de nos playlists en écoute illimité pendant 3 mois gratuits, nous proposont tous types de musiques, adapté pour tous les goûts ! </p>
-      <button class=" mx-80 w-52 mt-12 shadow bg-boutonvert focus:shadow-outline focus:outline-none text-white font-bold py-2 px-10 rounded-9xl border-2 border-white " type="button">
+      <p class="mx-24 mt-28 block">Profitez de nos playlists en écoute illimité pendant 3 mois gratuits, nous proposont tous types de musiques, adapté pour tous les goûts ! </p>
+      <button class=" mx-24 w-52 mt-12 shadow bg-boutonvert focus:shadow-outline focus:outline-none text-white font-bold py-2 px-10 rounded-9xl border-2 border-white " type="button">
         Rejoinez-nous !
       </button>
     </div>
@@ -88,8 +88,8 @@
 
 <div class="bg-[url('/img/newsletter.jpg')] w-screen h-screen bg-cover bg-no-repeat mt-32" alt="image de la newletter">
       <div class="pt-40">
-          <h1 class="text-center text-4xl font-bold">Sunset</h1>
-          <p class="text-center text-2xl ">Ne manquez rien en vous inscrivant à la newsletter</p>
+          <h1 class="text-center sm:text-xl md:text-1xl lg:text-3xl font-bold">Sunset</h1>
+          <p class="text-center sm:text-xl md:text-1xl lg:text-2xl ">Ne manquez rien en vous inscrivant à la newsletter</p>
           
       <div class="flex justify-center items-center">
         <div class="flex flex-wrap mt-10">

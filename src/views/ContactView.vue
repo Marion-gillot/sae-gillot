@@ -3,7 +3,7 @@
 
     <h1 class="mx-24 mt-20 text-2xl font-bold pt-9">Contact</h1>
         
-    <p class="font-bold mt-20 mx-24 mb-11">Pour toutes questions, ou si vous rencontrez des problèmes, merci de bien remplir ce formulaire :</p>
+    <p class="font-bold mt-20 mx-24 mb-11 ">Pour toutes questions, ou si vous rencontrez des problèmes, merci de bien remplir ce formulaire :</p>
 
 <form class="w-full max-w-5xl mx-56 mb-14">
   <div class="flex flex-wrap -mx-3 mb-6">

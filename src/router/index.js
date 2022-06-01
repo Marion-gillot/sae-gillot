@@ -8,6 +8,8 @@ import ConcertView from '../views/ConcertView.vue'
 import ProgrammationView from '../views/ProgrammationView.vue'
 import ArtisteView from '../views/ArtisteView.vue'
 
+import page404View from '../views/page404View.vue'
+
 import GuidestyleView from '../views/GuidestyleView.vue'
 
 const router = createRouter({
@@ -23,7 +25,7 @@ const router = createRouter({
     { path: '/artiste', name: 'ArtisteView', component: ArtisteView },
 
     { path: '/Guidestyle', name: 'GuidestyleView', component: GuidestyleView },
-
+    { path: '/:pathMatch(.*)', name: 'page404View', component: pageView404 },
 
   ]
 })
