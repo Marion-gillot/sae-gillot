@@ -23,9 +23,18 @@
             hover:bg-blue-700
             focus:outline-none
             active:bg-blue-600
+            mb-10
           ">
           retour à l'accueil
         </button>
+
+    <form action="https://duckduckgo.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + ' site:mmimontbeliard.com'" class="mb-20 space-x-4">
+    <label for="q">Veillez parcourir :</label>
+    <input type="text" id="q" name="q" x-model="q" class="px-20 py-3 rounded-3xl">
+    <button type="submit" class="shadow bg-gradient-to-r from-degrade-1 via-degrade-2 to-degrade-3 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white mt-24 ">Rechercher</button>
+</form>
         </RouterLink>
       </div>
 </template>
