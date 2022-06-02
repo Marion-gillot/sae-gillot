@@ -58,10 +58,10 @@
           <h2 class="z-20  sm:text-1xl md:text-2xl lg:text-3xl font-bold">15 000</h2>
           <p class="z-20 mt-12">15 000 places sont disponibles pour le concert.</p>
           <p class="z-20 mt-2"> Réservez dès maintenant vos billets et partagez à vos amis la venue de Zola à Sunset !</p>
-          <div class="w-96 h-20 rounded-20xl bg-transparent border-2 border-white mt-9">
+          <div class="w-96 h-16 rounded-20xl bg-transparent border-2 border-white mt-9">
               <div class="flex">
-                <PrixView1  class="h-14 w-14  mt-2 mx-4"/>
-                <p class="text-center mt-7">Je veux réserver ma place </p>
+                <PrixView  class="h-10 w-10 mt-3 mx-5"/>
+                <p class="text-center mt-5">Je veux réserver ma place !</p>
           </div>
           </div>
         </div>

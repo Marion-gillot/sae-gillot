@@ -5,7 +5,7 @@
         <p class="sm:text-xl md:text-2xl lg:text-3xl font-bold font-oswald text-center p-80 ">Festival 20 au 21 Avril 2022</p>  
     </div>
 
-    <p class="text-center mt-9 text-1xl">Du 10 au 21 Avril, Sunset accueillera sur sa scène les 4 rappeurs français les plus populaires du moment !</p>
+    <p class="text-center mt-44 text-1xl">Du 10 au 21 Avril, Sunset accueillera sur sa scène les 4 rappeurs français les plus populaires du moment !</p>
     <p class="text-center mt-2 text-1xl"> Qui sont-ils ?</p>
 
     <img src="/img/artistes-presentation.png" alt="photos des artistes du festival" class="w-1/2 mx-auto mt-20">

@@ -109,7 +109,7 @@
 
 <div class="mx-72 mt-20 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 gap-x-4 gap-y-12 justify-items-center mb-20 ">
     <div class="bg-white h-52 w-96 rounded-8xl">
-        <p class="text-black text-center pt-12 ">Appelez nous</p>
+        <p class="text-black text-center font-bold pt-12 ">Appelez nous</p>
         <div class="flex">
             <TelephoneView class="mx-5 mt-5"/>
             <p class="text-black text-center pt-12">00 00 00 00 00</p>
@@ -117,10 +117,10 @@
     </div>
 
     <div class="bg-white h-52 w-96 rounded-8xl ">
-            <p class="text-black text-center pt-12">Écrivez nous</p>
+            <p class="text-black text-center font-bold pt-12">Écrivez nous</p>
              <div class="flex">
                 <EnveloppeView1 class="mx-5 mt-5" />
-                <p class="text-black text-center pt-12">sunset@gmail.com</p>
+                <p class="text-black text-center pt-12 ">sunset@gmail.com</p>
             </div>
     </div>
 </div>
