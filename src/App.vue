@@ -16,7 +16,7 @@ import Footermobile from './Layout/FootermobileView.vue';
 
  <RouterView />
  
- <footer class="h-64 bg-fondsite text-white pt-32">
+ <footer class="h-64 bg-fondsite text-white">
  <Footer1 class="hidden lg:block"/>
  <Footermobile class="lg:hidden"/>
  </footer>

@@ -12,42 +12,42 @@
 
     <div class="mt-12 grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4 justify-items-center">  
         <div class="mt-10">
-          <img src="/img/actualite1.png" alt="actualités de sunset">
-      <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
+          <img src="/img/actualite1.png" alt="actualités de sunset" class="mb-5">
+      <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white" type="button">
         Comment reserver ?
       </button>
         </div>
 
         <div class="mt-10">
-          <img src="/img/actualite2.png" alt="actualités de sunset">
+          <img src="/img/actualite2.png" alt="actualités de sunset" class="mb-5">
               <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
         Les rencontres
       </button> 
         </div>
 
         <div class="mt-10">
-          <img src="/img/actualite3.png" alt="actualités de sunset">
+          <img src="/img/actualite3.png" alt="actualités de sunset" class="mb-5">
                <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
         Les tendances
       </button>
         </div>
 
         <div class="mt-10">
-          <img src="/img/actualite4.png" alt="actualités de sunset">
+          <img src="/img/actualite4.png" alt="actualités de sunset" class="mb-5">
                 <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
         Les coups de coeur
       </button>
         </div>
 
         <div class="mt-10">
-          <img src="/img/actualite5.png" alt="actualités de sunset">
+          <img src="/img/actualite5.png" alt="actualités de sunset" class="mb-5">
                 <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
         Quels styles de musiques ?
       </button>
         </div>
 
         <div class="mt-10">
-          <img src="/img/actualite6.png" alt="actualités de sunset">
+          <img src="/img/actualite6.png" alt="actualités de sunset" class="mb-5">
                 <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
         Nos playlists
       </button>
