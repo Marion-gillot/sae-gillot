@@ -2,8 +2,8 @@
     <main>
 
     <div class="bg-[url('/img/hero-artiste.jpg')] bg-cover w-screen h-screen bg-no-repeat mt-20 grid place-content-center ">
-        <p class="text-2xl sm:text-3xl md:text-3xl font-bold text-center">Description des artistes présents ce 20 Avril</p> 
-        <p class="text-1xl sm:text-2xl md:text-2xl font-bold text-center">Dans un univers rempli de mélodies</p> 
+        <p class="sm:text-xl md:text-2xl lg:text-3xl font-bold font-oswald text-center">Description des artistes présents ce 20 Avril</p> 
+        <p class="text-1xl sm:text-2xl md:text-2xl font-bold font-oswald text-center">Dans un univers rempli de mélodies</p> 
     </div>
 
     <h2 class="text-illustrationrose sm:text-2xl md:text-2xl lg:text-3xl font-bold font-oswald ml-24 mt-32">01. PNL</h2>

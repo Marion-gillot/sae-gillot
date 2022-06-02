@@ -1,7 +1,7 @@
 <template>
    
     <div class="bg-[url('/img/cercle1.png')] w-1/3 h-80 bg-contain bg-no-repeat mx-96 ">
-    <h1 class="-mx-64 mt-20 sm:text-1xl md:text-2xl lg:text-3xl font-bold pt-20 ">Concert du 30 Avril 2022</h1>
+    <h1 class="-mx-64 mt-20 sm:text-xl md:text-2xl lg:text-3xl font-bold font-oswald pt-20 ">Concert du 30 Avril 2022</h1>
     <p class="-mx-64 mt-6 font-thin w-96 ">Le rappeur français Zola se rendra sur la scène de Sunset dans la soirée du 3O Avril à partir de 22H00 !</p>
     </div>
 
@@ -18,7 +18,7 @@
     </div>
 
 
-    <h2 class="mt-20 sm:text-1xl md:text-2xl lg:text-2xl font-bold mx-24">Quelles musiques ?</h2>
+    <h2 class="mt-20 sm:text-1xl md:text-2xl lg:text-2xl font-bold font-oswald mx-24">Quelles musiques ?</h2>
     <div class="grid grid-cols-4 md:grid-cols-8 sm:grid-cols-8 justify-items-center mt-10">
          <div class="h-28 w-3 bg-illustrationrose"></div>
         <ul>

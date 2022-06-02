@@ -3,10 +3,9 @@
   <nav class="flex">
   <div>
      <RouterLink to="/"><img src="/img/logosunset.png" class="w-12 h-12 mx-7 my-5" /></RouterLink>
-     
   </div>
   
-  <div class="flex mt-8 space-x-8 font-roboto text-white">
+  <div class="flex mt-8 space-x-8 font-light text-white">
     <RouterLink to="/concert">Concert</RouterLink>
     <RouterLink to="/programmation">Programmation</RouterLink>
     <RouterLink to="/artistes">Artistes</RouterLink>

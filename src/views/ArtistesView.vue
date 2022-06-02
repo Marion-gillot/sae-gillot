@@ -2,7 +2,7 @@
 <main>
 
    <div class="bg-[url('/img/hero-artistes.jpg')] w-full h-full bg-cover bg-no-repeat mt-20 grid place-content-cente">
-        <p class=" sm:text-1xl md:text-2xl lg:text-3xl font-bold text-center p-80 ">Festival 20 au 21 Avril 2022</p>  
+        <p class="sm:text-xl md:text-2xl lg:text-3xl font-bold font-oswald text-center p-80 ">Festival 20 au 21 Avril 2022</p>  
     </div>
 
     <p class="text-center mt-9 text-1xl">Du 10 au 21 Avril, Sunset accueillera sur sa scène les 4 rappeurs français les plus populaires du moment !</p>

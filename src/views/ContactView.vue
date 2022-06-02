@@ -1,7 +1,7 @@
 <template>
     <main>
 
-    <h1 class="m-24 mt-20 sm:text-1xl md:text-2xl lg:text-3xl font-bold pt-9">Contact</h1>
+    <h1 class="m-24 mt-20 sm:text-xl md:text-2xl lg:text-3xl font-bold font-oswald pt-9">Contact</h1>
         
     <p class="font-bold mt-20 mx-24 mb-11">Pour toutes questions, ou si vous rencontrez des problèmes, merci de bien remplir ce formulaire :</p>
 

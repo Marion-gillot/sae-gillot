@@ -1,32 +1,21 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Footer1 from "./Layout/Footer.vue";
-import Headergrand from "./Layout/Headergrand.vue";
-import Header from "./Layout/Header.vue";
+import Header from './Layout/Header.vue';
+import Headergrand from './Layout/Headergrand.vue';
+
 
 </script>
 
 <template>
   <header class="bg-fondsite h-3 mb-10">
-  <nav class="flex">
-  <div>
-     <RouterLink to="/"><img src="/img/logosunset.png" class="h-12 mx-7 my-5" /></RouterLink>
-     
-  </div>
-  
-  <div class="flex mt-8 space-x-8 font-light text-white">
-    <RouterLink to="/concert">Concert</RouterLink>
-    <RouterLink to="/programmation">Programmation</RouterLink>
-    <RouterLink to="/artistes">Artistes</RouterLink>
-    <RouterLink to="/apropos">Festival</RouterLink>
-    <RouterLink to="/contact" class="text-illustrationrose font-bold">Contact</RouterLink>
-    </div>
-  </nav>
+    <Headergrand class="hidden xl:flex"/>
+    <Header class="xl:hidden"/>
   </header>
 
 
  <RouterView />
- <footer class="h-64 bg-fondsite text-white">
+ <footer class="h-64 bg-fondsite text-white pt-32">
  <Footer1 />
  </footer>
 
@@ -36,6 +25,6 @@ import Header from "./Layout/Header.vue";
 <script>
 
 export default {
-  components: { Headergrand, Footer1, Header },
+  components: { Footer1, Headergrand, Header, },
 };
 </script>
