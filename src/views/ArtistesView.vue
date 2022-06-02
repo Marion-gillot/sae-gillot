@@ -33,7 +33,7 @@
 
 <div class="flex flex-col justify-center items-center">
   <a href="artiste">
-   <button class="shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white mt-24 " type="button">
+   <button class="shadow bg-gradient-to-r from-degrade-1 via-degrade-2 to-degrade-3 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white mt-24 " type="button">
         Plus de détails sur les artistes
       </button>
   </a>

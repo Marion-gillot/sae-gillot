@@ -2,19 +2,18 @@
     <main>
 
         <div class="bg-[url('/img/hero-programmation.jpg')] w-screen h-screen bg-cover bg-no-repeat mt-20 grid place-content-center">
-            <p class="sm:text-xl md:text-2xl lg:text-3xl font-bold font-oswald text-center p-80 ">Nos prochains concerts...</p> 
+            <p class="sm:text-xl md:text-2xl lg:text-3xl font-bold font-oswald text-center pt-48 ">Nos prochains concerts...</p> 
         </div>
 
-        <div class="bg-[url('/img/deco-rose.png')] w-screen h-screen bg-contain bg-no-repeat mt-20">
-            <p class="sm:text-xl md:text-1xl lg:text-2xl text-right p-80 ">Suivez et réservez les concerts de Sunset </p>
-        </div>
+             <p class="sm:text-xl md:text-1xl lg:text-2xl text-center mt-20 mb-20">Suivez et réservez les concerts de Sunset</p>
+    
 
         <h2 class="mx-24 sm:text-xl md:text-1xl lg:text-2xl font-bold mb-20">Prochainement</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4 justify-items-center">
             <CardView nom="PNL" date="20/04/2022" prix="75€/personne" titre="Deux frères" image="/img/pnl-card.png" />
             <CardView nom="Hatik" date="30/05/2022" prix="26€/personne" titre="Noyé-tour" image="/img/hatik-card.jpg" />
-            <CardView nom="Ninho" date="30/05/2022" prix="26€/personne" titre="Jefe tout" image="/img/ninho-card.jpg" />
+            <CardView nom="Ninho" date="30/05/2022" prix="26€/personne" titre="Jefe tour" image="/img/ninho-card.jpg" />
             <CardView nom="Ziak" date="25/05/2022" prix="26€/personne" titre="DR" image="/img/ziak-card.jpg" />
             <CardView nom="Jock'air" date="21/05/2022" prix="28€/personne" titre="Jock'travolta" image="/img/jockair-card.jpg" />
             <CardView nom="Vald" date="04/06/2022" prix="40.10€/personne" titre="DR" image="/img/vald-card.jpg" />

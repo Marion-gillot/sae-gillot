@@ -1,7 +1,8 @@
 <template>
+    <main class="bg-white text-black">
     <h1 class="text-3xl mx-32 my-7 mt-20 mb-20 text-center font-bold">Guide de styles</h1>
   
-    <h2 class="text-2xl mx-32 my-7 font-thin">Couleurs</h2>
+    <h2 class="text-2xl mx-32 my-7 font-bold">Couleurs</h2>
     <h3 class="text-1xl mx-32 my-7">Couleurs principales</h3>
   <div class="flex mx-32">
   <div class="w-52 h-24 mx-2 rounded-10xl bg-black "></div>
@@ -24,15 +25,17 @@
     <div class="bg-white w-52 h-24"></div>
   </div>
 
+     <h3 class="text-1xl mx-32 my-7">Dégradé</h3>
+    <div class="w-52 h-24 mx-32 bg-gradient-to-r from-degrade-1 via-degrade-2 to-degrade-3 rounded-10xl"></div>
 
-  <h2 class="text-2xl mx-32 my-7 font-thin ">Polices</h2>
+  <h2 class="text-2xl mx-32 my-7 font-bold ">Polices</h2>
   
   <h4 class="text-2xl font-anton mx-32 ">Heading 1</h4>
   <h4 class="text-2xl font-bebas-neue mx-32">Heading 2</h4>
   <h4 class="text-xl font-Inter mx-32">Heading 3</h4>
   <h4 class="text-1xl font-Mulish mx-32">Heading 4</h4>
 
-  <h2 class="text-2xl mx-32 my-7 font-thin ">Icones</h2>
+  <h2 class="text-2xl mx-32 my-7 font-bold ">Icones</h2>
   
     <div class="space-x-4 mx-32 mb-20">
 
@@ -43,21 +46,35 @@
         <InstagramView />
     </div>
 
-    <h4 class="mb-6">Réseaux sociaux</h4>
+    <h4 class="mb-6">Contact</h4>
         <div class="flex space-x-4 mb-9">
             <LocalisationView class="-mt-3"/>
             <TelephoneView />
             <EnveloppeView1 />
         </div>
 
-    <h4 class="mb-6">Réseaux sociaux</h4>
+    <h4 class="mb-6">Programmation</h4>
         <div class="flex space-x-4 mb-9">
             <PlaceView class="bg-white p-1 "/>
             <PrixView  />
      </div> 
+
+    <h4 class="mb-6">Pratique</h4>
+        <div class="flex space-x-4 mb-9">
+            <MoonView class="bg-white"/>
+            <SunView />
+        </div>
+
+
+    <h4 class="mb-6">Menu</h4>
+        <div class="flex space-x-4 mb-9">
+            <MenuView class="bg-white"/>
+            <Xview class="bg-white"/>
+        </div>
+
 </div>
   
-  <h2 class="text-2xl mx-32 font-thin mb-9">Composants</h2>
+  <h2 class="text-2xl mx-32 font-bold mb-9">Composants</h2>
      <h4 class="mx-32 mb-9">Boutons</h4>
 <div class="mx-32 mb-10 space-x-4">
     <button class="shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
@@ -99,9 +116,10 @@
   
 </div>
 
- <h4 class="mx-32">Activités</h4>
-        <div class="space-x-4 mb-9 mx-32">
-            <div class="mt-20">
+<div class="bg-black p-9">
+ <h4 class="mx-32 text-white  font-bold">Activités</h4>
+        <div class="space-x-4 mb-2 mx-32">
+            <div class="mt-10">
                 <SkinautiqueView/>
                 </div>
 
@@ -115,63 +133,63 @@
                         <VolleyView />
                 </div>
             </div>
+</div>
 
+  <h2 class="text-2xl mx-32 mt-20 font-bold">Checkbox</h2>
 
-  <h2 class="text-2xl mx-32 mt-20 font-thin">Checkbox</h2>
-
-     <div class="mb-12 mx-32 mt-10">
+     <div class="pb-12 mx-32 mt-10">
             <div class="form-check">
             <input class="form-check-input appearance-none mx-7 h-4 w-4 border border-black bg-white rounded-full checked:bg-illustrationrose focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label inline-block text-white" for="flexCheckDefault">
+            <label class="form-check-label inline-block text-black" for="flexCheckDefault">
             Je rencontre des problèmes de chargement sur le site
             </label>
         </div>
 
         <div class="form-check">
             <input class="form-check-input appearance-none mx-7 h-4 w-4 border border-black bg-white rounded-full checked:bg-illustrationrose focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label inline-block text-white" for="flexCheckChecked">
+            <label class="form-check-label inline-block text-black" for="flexCheckChecked">
             Je n’arrive pas à joindre les liens
             </label>
         </div>
 
         <div class="form-check">
             <input class="form-check-input appearance-none mx-7 h-4 w-4 border border-black bg-white rounded-full checked:bg-illustrationrose focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label inline-block text-white" for="flexCheckChecked">
+            <label class="form-check-label inline-block text-black" for="flexCheckChecked">
             Je rencontre des bugs fréquents
             </label>
         </div>
 
         <div class="form-check">
             <input class="form-check-input appearance-none mx-7 h-4 w-4 border border-black bg-white rounded-full checked:bg-illustrationrose focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label inline-block text-white" for="flexCheckChecked">
+            <label class="form-check-label inline-block text-black" for="flexCheckChecked">
             Utilisation du site
             </label>
         </div>
 
         <div class="form-check">
             <input class="form-check-input appearance-none mx-7 h-4 w-4 border border-black bg-white rounded-full checked:bg-illustrationrose focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label inline-block text-white" for="flexCheckChecked">
+            <label class="form-check-label inline-block text-black" for="flexCheckChecked">
             Confidentialité
             </label>
         </div>
 
         <div class="form-check">
             <input class="form-check-input appearance-none mx-7 h-4 w-4 border border-black bg-white rounded-full checked:bg-illustrationrose focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label inline-block text-white" for="flexCheckChecked">
+            <label class="form-check-label inline-block text-black" for="flexCheckChecked">
             Dépannage
             </label>
         </div>
 
         <div class="form-check">
             <input class="form-check-input appearance-none mx-7 h-4 w-4 border border-black bg-white rounded-full checked:bg-illustrationrose focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label inline-block text-white" for="flexCheckChecked">
+            <label class="form-check-label inline-block text-black" for="flexCheckChecked">
             Autre
             </label>
         </div>
         </div>
 
 
-  
+  </main>
 </template>
 
 <script>
@@ -189,10 +207,12 @@ import SkinautiqueView from "../component/SkinautiqueView.vue";
 import JetskiView from "../component/JetskiView.vue";
 import BarView from "../component/BarView.vue";
 import VolleyView from "../component/VolleyView.vue";
+import MoonView from '../component/MoonView.vue';
+import SunView from '../component/SunView.vue';
 
 
 
 export default {
-  components: { LocalisationView, TelephoneView, PrixView, EnveloppeView1, SkinautiqueView, JetskiView, BarView, VolleyView, PlaceView, TwitterView, FacebookView, InstagramView,  },
+  components: { LocalisationView, TelephoneView, PrixView, EnveloppeView1, SkinautiqueView, JetskiView, BarView, VolleyView, PlaceView, TwitterView, FacebookView, InstagramView, MoonView, SunView,  },
 };
 </script>

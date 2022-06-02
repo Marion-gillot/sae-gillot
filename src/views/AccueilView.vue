@@ -1,7 +1,7 @@
 <template>
   <main>
 
-    <div class="bg-[url('/img/hero-home.jpg')] w-screen h-screen bg-contain bg-no-repeat">
+    <div class="bg-[url('/img/hero-home.jpg')] w-screen h-screen bg-cover bg-no-repeat">
       <div class="pt-32">
           <h1 class="mx-24 text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">Sunset</h1>
           <p class="mx-24 text-white sm:text-xl md:text-1xl lg:text-2xl font-Inter font-extralight">Plongé dans l’univers musical et chaleureux sur le sable de Sunset </p>
@@ -90,15 +90,15 @@
     </div>
 
       
-    <div class=" grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 mt-20">
+    <div class="mt-20 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 gap-x-4 gap-y-12 justify-items-center mb-20 ">
         <div>
-            <p class="mx-24 mt-28 block ">Profitez de nos playlists en écoute illimité pendant 3 mois gratuits, nous proposont tous types de musiques, adapté pour tous les goûts ! </p>
-            <button class=" mx-24 w-52 mt-12 shadow bg-boutonvert focus:shadow-outline focus:outline-none text-white font-bold py-2 px-10 rounded-9xl border-2 border-white " type="button">
-            Rejoinez-nous !</button>
+            <p class="mx-24 mt-28 ">Profitez de nos playlists en écoute illimité pendant 3 mois gratuits, nous proposont tous types de musiques, adapté pour tous les goûts ! </p>
+            <button class=" mx-24 w-56 mt-12 shadow bg-boutonvert focus:shadow-outline focus:outline-none text-white font-bold py-2 px-10 rounded-9xl border-2 border-white " type="button">
+            Rejoignez-nous !</button>
         </div>
-    <div>
           
     <img src="/img/spotify-screen.jpg" alt="demonstration sur tablette de spotify">
+      <div>
     </div>
     </div>
       
@@ -120,7 +120,6 @@
               <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-password">E-mail</label>
               <input class="appearance-none block w-full bg-gray-200 text-white border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
             </div>
-            
             <button class="shadow bg-boutonorange focus:shadow-outline focus:outline-none text-black text-1xl w-16 h-12 mt-6  " type="button">OK </button> 
             </div>
           </div>    

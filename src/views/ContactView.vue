@@ -99,7 +99,7 @@
     </div>
   </div>
     <div class="ml-auto mb-20">
-      <button class="shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
+      <button class="shadow bg-gradient-to-r from-degrade-1 via-degrade-2 to-degrade-3 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
         Envoyez
       </button>
     </div>
