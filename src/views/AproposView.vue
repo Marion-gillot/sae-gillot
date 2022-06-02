@@ -67,7 +67,7 @@
 
  <h2 class="mx-24 mt-10 text-1xl font-bold pt-5 w-8/12">Pour permettre l’accès à tous, nous proposons des réductions sur certaines activités, ainsi que les billets d’entrée</h2>
 
- <ul class="mx-28 mt-10 w-7/12">
+ <ul class="mx-28 mt-10 w-7/12 mb-32">
     <li>- Si vous êtes étudiant(e), vous pouvez bénéficier d’une réduction sur vos billets d’entrée, à condition de présenter votre statut étudiant(e). </li>
     <li>- Des activités sur la plage sont disponible pour vous avec des prix moins élevés qu’en dehors du Festival Sunset. En outre, les tarifs sont fexibles selon votre âge.</li>
  </ul>

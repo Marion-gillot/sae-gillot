@@ -1,7 +1,7 @@
 <template>
    
     <div class="bg-[url('/img/cercle1.png')] w-1/3 h-80 bg-contain bg-no-repeat mx-96 ">
-    <h1 class="-mx-64 mt-20 sm:text-1xl md:text-2xl lg:text-3xl font-bold pt-9 ">Concert du 30 Avril 2022</h1>
+    <h1 class="-mx-64 mt-20 sm:text-1xl md:text-2xl lg:text-3xl font-bold pt-20 ">Concert du 30 Avril 2022</h1>
     <p class="-mx-64 mt-6 font-thin w-96 ">Le rappeur français Zola se rendra sur la scène de Sunset dans la soirée du 3O Avril à partir de 22H00 !</p>
     </div>
 
@@ -55,8 +55,8 @@
     
     <div class="-mt-32 -z-20">
         <div class="bg-illustrationrose w-3/6 h-96 p-10">
-          <h2 class="z-20 text-2xl">15 000</h2>
-          <p class="z-20 mt-16">15 000 places sont disponibles pour le concert.</p>
+          <h2 class="z-20  sm:text-1xl md:text-2xl lg:text-3xl font-bold">15 000</h2>
+          <p class="z-20 mt-12">15 000 places sont disponibles pour le concert.</p>
           <p class="z-20 mt-2"> Réservez dès maintenant vos billets et partagez à vos amis la venue de Zola à Sunset !</p>
           <div class="w-96 h-20 rounded-20xl bg-transparent border-2 border-white mt-9">
               <div class="flex">
@@ -71,7 +71,7 @@
 
 
     <div class="bg-[url('/img/cercle1.png')] w-1/3 h-80 bg-contain bg-no-repeat mx-52">
-        <h1 class="-mx-32 mt-20 sm:text-1xl md:text-1xl lg:text-2xl font-bold pt-9 ">Quelles activités ?</h1>
+        <h1 class="-mx-32 mt-20 sm:text-1xl md:text-1xl lg:text-2xl font-bold font-oswald pt-9 ">Quelles activités sont proposées ?</h1>
     </div>
 
 
@@ -92,10 +92,10 @@
     </div>
 </div>
 
-    <p class=" sm:text-1xl md:text-2xl lg:text-2xl font-bold text-center pt-32 pb-64">Mais surtout...</p>
+    <p class="sm:text-1xl md:text-2xl lg:text-2xl font-bold text-center pt-32 pb-64">Mais surtout...</p>
 
-    <div class="bg-[url('/img/concert.jpg')] w-screen h-screen bg-contain bg-no-repeat">
-        <p class="  sm:text-1xl md:text-2xl lg:text-2xl font-bold  text-center p-96 ">De la musique et encore de la musique !</p>  
+    <div class="bg-[url('/img/concert.jpg')] w-screen h-screen bg-cover bg-no-repeat">
+        <p class="sm:text-1xl md:text-2xl lg:text-2xl font-bold text-black text-center p-48 ">De la musique et encore de la musique !</p>  
     </div>
 
 </template>

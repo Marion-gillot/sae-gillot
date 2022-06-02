@@ -6,7 +6,7 @@
         <p class="text-1xl sm:text-2xl md:text-2xl font-bold text-center">Dans un univers rempli de mélodies</p> 
     </div>
 
-    <h2 class="text-illustrationrose sm:text-2xl md:text-2xl lg:text-3xl font-bold ml-24 mt-32">01. PNL</h2>
+    <h2 class="text-illustrationrose sm:text-2xl md:text-2xl lg:text-3xl font-bold font-oswald ml-24 mt-32">01. PNL</h2>
     
     <div class="relative flex w-full overflow-x-auto pt-9">
         <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
@@ -45,7 +45,7 @@
         <li>- Deux frères - 2019</li>
     </ul>
 
-<h2 class="text-illustrationrose sm:text-2xl md:text-2xl lg:text-3xl font-bold ml-24 mt-32">01. Jul</h2>
+<h2 class="text-illustrationrose sm:text-2xl md:text-2xl lg:text-3xl font-bold font-oswald ml-24 mt-32">01. Jul</h2>
     
     <div class="relative flex w-full overflow-x-auto pt-9">
       <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
@@ -86,7 +86,7 @@ $
         <li>- Indépendance 2021</li>        
     </ul>
 
-<h2 class="text-illustrationrose sm:text-2xl md:text-2xl lg:text-3xl font-bold ml-24 mt-32">01. Ziak</h2>
+<h2 class="text-illustrationrose sm:text-2xl md:text-2xl lg:text-3xl font-bold font-oswald ml-24 mt-32">01. Ziak</h2>
     
     <div class="relative flex w-full overflow-x-auto pt-9">
 
@@ -110,7 +110,7 @@ Avec une communication très restreinte, les commentaires sur ses clips sont rap
         <li>- Akimbo - 2021</li>      
     </ul>
 
-<h2 class="text-illustrationrose sm:text-2xl md:text-2xl lg:text-3xl font-bold ml-24 mt-32">01. Gazo</h2>
+<h2 class="text-illustrationrose sm:text-2xl md:text-2xl lg:text-3xl font-bold font-oswald ml-24 mt-32">04. Gazo</h2>
     
     <div class="relative flex w-full overflow-x-auto pt-9">
       <div class="w-2/3 shrink-0 rounded-lg shadow-xl">
@@ -131,7 +131,7 @@ Selon certaines sources, il ferait partie d'un gang auquel il fait souvent réf�
 </p>
 
 <h2 class="mx-24 mt-20 font-bold sm:text-xl md:text-1xl lg:sm:text-xl md:text-1xl lg:text-2xl">Ses albums</h2>
-    <ul class="mx-32">
+    <ul class="mx-32 mb-20">
         <li>- Drill FR - 2021</li>      
     </ul>
 

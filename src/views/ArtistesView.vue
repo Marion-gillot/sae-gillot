@@ -39,7 +39,7 @@
   </a>
     </div>
 
-<h2 class="text-center text-illustrationrose text-2xl mt-16">Horaires</h2>
+<h2 class="text-center text-illustrationrose font-bold font-oswald text-2xl mt-16">Horaires</h2>
 
     <div class="flex flex-col justify-center items-center">
         <div class="bg-white w-3/6 1/3 rounded-12 mx-32 mt-20 rounded-10xl">
@@ -56,10 +56,12 @@
 
 
 <div class="flex space-x-10 mt-24  justify-center items-center">
-    <img src="/img/qr-code.png" alt="QR code de l'évenement" class="w-56">
+    <img src="/img/qr-code.png" alt="QR code de l'évenement" class="w-56 mb-20">
 
-    <div><p class="mb-8 mt-11">L’équipe Sunset vous remercie !</p>
-    <img src="/img/logosunset.png" alt="logo sunset" class="w-32 h-32"></div>
+    <div>
+      <p class="mb-5">L’équipe Sunset vous remercie !</p>
+      <img src="/img/logosunset.png" alt="logo sunset" class="w-32 h-32">
+    </div>
  
 </div>
 

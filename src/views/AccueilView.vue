@@ -3,46 +3,58 @@
 
     <div class="bg-[url('/img/hero-home.jpg')] w-screen h-screen bg-contain bg-no-repeat">
       <div class="pt-32">
-          <h1 class="mx-24 text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold ">Sunset</h1>
-          <p class="mx-24 text-white sm:text-xl md:text-1xl lg:text-2xl ">Plongé dans l’univers musical et chaleureux sur le sable de Sunset </p>
+          <h1 class="mx-24 text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">Sunset</h1>
+          <p class="mx-24 text-white sm:text-xl md:text-1xl lg:text-2xl font-Inter font-extralight">Plongé dans l’univers musical et chaleureux sur le sable de Sunset </p>
       </div>
     </div>
 
-    <h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose font-bold mx-24">Les actualités</h2>
+    <h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose font-oswald font-bold mx-24">Les actualités</h2>
 
     <div class="mt-12 grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4 justify-items-center">  
         <div class="mt-10">
           <img src="/img/actualite1.png" alt="actualités de sunset">
-          <p class="text-center mt-6 sm:text-1xl md:text-1xl lg:text-1xl ">Comment réserver ?</p>
+      <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
+        Comment reserver ?
+      </button>
         </div>
 
         <div class="mt-10">
           <img src="/img/actualite2.png" alt="actualités de sunset">
-          <p class="text-center mt-6">Les rencontres</p>  
+              <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
+        Les rencontres
+      </button> 
         </div>
 
         <div class="mt-10">
           <img src="/img/actualite3.png" alt="actualités de sunset">
-          <p class="text-center mt-6">Les tendances</p>
+               <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
+        Les tendances
+      </button>
         </div>
 
         <div class="mt-10">
           <img src="/img/actualite4.png" alt="actualités de sunset">
-          <p class="text-center mt-6">Les coups de coeur</p>
+                <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
+        Les coups de coeur
+      </button>
         </div>
 
         <div class="mt-10">
           <img src="/img/actualite5.png" alt="actualités de sunset">
-          <p class="text-center mt-6">Quels styles de musique ? </p>
+                <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
+        Quels styles de musiques ?
+      </button>
         </div>
 
         <div class="mt-10">
           <img src="/img/actualite6.png" alt="actualités de sunset">
-          <p class="text-center mt-6">Nos playlists</p>
+                <button class="shadow bg-transparent w-full focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
+        Nos playlists
+      </button>
         </div>
     </div>
 
-    <h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose mx-24 mt-24 font-bold">Restez connecté !</h2>
+    <h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose mx-24 mt-24 font-oswald font-bold">Restez connecté !</h2>
 
     <div class="mt-12  grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-x-4 justify-items-center">  
         <div class="mt-10">
@@ -61,7 +73,7 @@
         </div>
     </div>
 
-    <h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose text-center mt-24">Rejoignez nous sur Spotify pour plus de rythme !</h2>
+    <h2 class="sm:text-xl md:text-1xl lg:text-2xl text-illustrationrose text-center font-bold font-oswald mt-24">Rejoignez nous sur Spotify pour plus de rythme !</h2>
     <p class="mt-20 w-96 mx-auto text-center mb-8">Ne manquez pas les tendances du moments ! Rejoignez notre compte spotify avec 3 mois offerts !</p>
 
     <div class="relative flex w-full overflow-x-auto pt-9">
@@ -80,7 +92,7 @@
       
     <div class=" grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 mt-20">
         <div>
-            <p class="mx-24 mt-28 block">Profitez de nos playlists en écoute illimité pendant 3 mois gratuits, nous proposont tous types de musiques, adapté pour tous les goûts ! </p>
+            <p class="mx-24 mt-28 block ">Profitez de nos playlists en écoute illimité pendant 3 mois gratuits, nous proposont tous types de musiques, adapté pour tous les goûts ! </p>
             <button class=" mx-24 w-52 mt-12 shadow bg-boutonvert focus:shadow-outline focus:outline-none text-white font-bold py-2 px-10 rounded-9xl border-2 border-white " type="button">
             Rejoinez-nous !</button>
         </div>

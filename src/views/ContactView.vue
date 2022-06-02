@@ -1,13 +1,13 @@
 <template>
     <main>
 
-    <h1 class="mx-24 mt-20 sm:text-1xl md:text-2xl lg:text-3xl font-bold pt-9">Contact</h1>
+    <h1 class="m-24 mt-20 sm:text-1xl md:text-2xl lg:text-3xl font-bold pt-9">Contact</h1>
         
-    <p class="font-bold mt-20 mx-24 mb-11 ">Pour toutes questions, ou si vous rencontrez des problèmes, merci de bien remplir ce formulaire :</p>
+    <p class="font-bold mt-20 mx-24 mb-11">Pour toutes questions, ou si vous rencontrez des problèmes, merci de bien remplir ce formulaire :</p>
 
-<form class="w-full max-w-5xl mx-56 mb-14">
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-96 px-3">
+<form class="mt-20 grid grid-cols-1 md:grid-cols-1 sm:grid-cols-2 gap-x-4 w-full max-w-5xl mx-32 mb-14">
+  <div class="mb-6">
+    <div class="w-96">
       <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-first-name">
         Nom
       </label>
@@ -16,8 +16,8 @@
     </div>
 
   </div>
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-96 px-3">
+  <div class="mb-6">
+    <div class="w-96">
       <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-password">
         E-mail
       </label>
@@ -26,8 +26,8 @@
     </div>
   </div>
 
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-96 px-3">
+  <div class="mb-6">
+    <div class="w-96">
       <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-password">
         Objet
       </label>
@@ -90,7 +90,7 @@
         </div>
 
 
-  <div class="flex flex-wrap -mx-3 mb-6">
+  <div class="mb-5 ">
     <div class="w-full">
       <label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-password">
         Votre message
@@ -98,32 +98,31 @@
       <textarea class=" no-resize appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-96 resize-none" id="message"></textarea>
     </div>
   </div>
-    <div class="flex flex-col justify-center items-center">
+    <div class="ml-auto mb-20">
       <button class="shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white " type="button">
         Envoyez
       </button>
     </div>
 </form>
 
-<h2 class="text-illustrationrose text-center sm:text-1xl md:text-1xl lg:text-2xl">Service client </h2>
+<h2 class="text-illustrationrose text-center sm:text-1xl md:text-1xl lg:text-2xl font-bold font-oswald">Service client </h2>
 
-<div class="mx-72 mt-20 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 gap-x-4 justify-items-center">
-    <div class="bg-white h-52 w-96 mb-10 rounded-8xl">
-        <p class="text-black text-center pt-12">Appelez nous</p>
+<div class="mx-72 mt-20 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 gap-x-4 gap-y-12 justify-items-center mb-20 ">
+    <div class="bg-white h-52 w-96 rounded-8xl">
+        <p class="text-black text-center pt-12 ">Appelez nous</p>
         <div class="flex">
             <TelephoneView class="mx-5 mt-5"/>
             <p class="text-black text-center pt-12">00 00 00 00 00</p>
         </div>
     </div>
 
-    <div class="bg-white h-52 w-96 rounded-8xl">
+    <div class="bg-white h-52 w-96 rounded-8xl ">
             <p class="text-black text-center pt-12">Écrivez nous</p>
              <div class="flex">
                 <EnveloppeView1 class="mx-5 mt-5" />
                 <p class="text-black text-center pt-12">sunset@gmail.com</p>
             </div>
-        </div>
-
+    </div>
 </div>
 </main>
 </template>

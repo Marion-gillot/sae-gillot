@@ -58,7 +58,7 @@
 
   <div class="bg-fond2footer h-12 mt-7">
       <nav class="flex">
-          <div class="flex space-x-8 mx-6 p-3 font-roboto">
+          <div class="flex space-x-8 mx-6 p-3 font-regular font-regular">
             <h3 class="block"><a href="mentionslegales">Mentions légales</a></h3>
             <h3 class="block">Cookies</h3>
             <h3 class="block">Politique de protection des données personnelles </h3>

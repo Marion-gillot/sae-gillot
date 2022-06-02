@@ -14,19 +14,19 @@ import Header from "./Layout/Header.vue";
      
   </div>
   
-  <div class="flex mt-8 space-x-8 font-roboto-light text-white">
+  <div class="flex mt-8 space-x-8 font-light text-white">
     <RouterLink to="/concert">Concert</RouterLink>
     <RouterLink to="/programmation">Programmation</RouterLink>
     <RouterLink to="/artistes">Artistes</RouterLink>
     <RouterLink to="/apropos">Festival</RouterLink>
-    <RouterLink to="/contact" class="text-illustrationrose">Contact</RouterLink>
+    <RouterLink to="/contact" class="text-illustrationrose font-bold">Contact</RouterLink>
     </div>
   </nav>
   </header>
 
 
  <RouterView />
- <footer class="h-64 bg-fondsite text-white pt-32">
+ <footer class="h-64 bg-fondsite text-white">
  <Footer1 />
  </footer>
 

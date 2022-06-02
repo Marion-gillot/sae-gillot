@@ -4,12 +4,12 @@
 
    
 <div class="flex"> 
-    <div class=" flex relative top-0 left-0 right-0 bottom-0 h-48 items-center justify-center overflow-hidden rounded-t-2xl">
+    <div class="flex relative top-0 left-0 right-0 bottom-0 h-48 items-center justify-center overflow-hidden rounded-t-2xl">
     <img class="h-full max-w-screen-2xl" :src="image" alt="artiste"/></div>
 <div> 
 
 
-    <div class=" flex w-full flex-col gap-4 rounded px-8 ">
+    <div class="flex w-full flex-col gap-4 px-8 ">
     <div class="flex justify-between">
         <div class="w-3/5">
           <div class="flex items-center justify-between pt-6">

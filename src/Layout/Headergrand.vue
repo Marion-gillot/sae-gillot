@@ -11,7 +11,7 @@
     <RouterLink to="/programmation">Programmation</RouterLink>
     <RouterLink to="/artistes">Artistes</RouterLink>
     <RouterLink to="/apropos">Festival</RouterLink>
-    <RouterLink to="/contact" class="text-illustrationrose">Contact</RouterLink>
+    <RouterLink to="/contact" class="text-illustrationrose font-bold">Contact</RouterLink>
     </div>
   </nav>
   </header>
