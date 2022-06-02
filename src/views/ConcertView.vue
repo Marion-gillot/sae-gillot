@@ -10,7 +10,7 @@
     
 
     <div class="mx-96 z-10 -mt-96 absolute">
-        <div class="w-3/7 bg-illustrationrose -z-20 p-10">
+        <div class="w-3/7 bg-gradient-to-r from-degrade-1 via-degrade-2 to-degrade-3 -z-20 p-10">
           <h2 class="z-20 sm:text-1xl md:text-2xl lg:text-3xl font-bold">Zola</h2>
           <div class="w-20 h-2 bg-white mb-10"></div>
           <p class="z-20">Le jeune artiste Zola partagera ses plus belles musiques sur scène tout au long de la soirée, avec son album “ Survie ” sortit en 2020. D’autres artistes comme Ninho et Koba la D se joingeront à la fête pour plus de folie comme “ Peapers ” ou encore “ FlashBack ”.</p>
@@ -54,7 +54,7 @@
     <img src="/img/zola-2.jpg" alt="image de Zola" class="w-3/5 mt-28 ml-auto z-30 ">
     
     <div class="-mt-32 -z-20">
-        <div class="bg-illustrationrose w-3/6 h-96 p-10">
+        <div class="bg-gradient-to-r from-degrade-1 via-degrade-2 to-degrade-3 w-3/6 h-96 p-10">
           <h2 class="z-20  sm:text-1xl md:text-2xl lg:text-3xl font-bold">15 000</h2>
           <p class="z-20 mt-12">15 000 places sont disponibles pour le concert.</p>
           <p class="z-20 mt-2"> Réservez dès maintenant vos billets et partagez à vos amis la venue de Zola à Sunset !</p>

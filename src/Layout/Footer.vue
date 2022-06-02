@@ -1,6 +1,4 @@
  <template>
- 
-
 <div class="bg-fond1footer h-56">
     <div class="grid grid-cols-4">
       

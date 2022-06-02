@@ -26,7 +26,11 @@ module.exports = {
        "fond gris ": "#272727",
        "formulaire et composants - fond blanc": "#ffffff",
        "fond2footer": "#161616",
-       "fond1footer": "#272727"
+       "fond1footer": "#272727",
+       "degrade-1": "#c75f71",
+       "degrade-2": "#b34c83",
+       "degrade-3": "#9d4b8a",
+       "degrade-4": "#8e4297"
       },
       "fontSize": {
        "base": "1.25rem",
