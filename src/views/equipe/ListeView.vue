@@ -10,15 +10,15 @@
             </h5>
         </div>    
                         
-        <div class="card-body table-responsive">
+        <div class="card-body table-responsive grid grid- p-3">
             <table class="table border-2 text-light">
                 <thead>
                     <tr>                      
-                        <th scope="col" class="text-center">Image</th>
-                        <th scope="col" class="text-center">Nom</th>
-                         <th scope="col" class="text-center">Prénom</th>
-                        <th scope="col" class="text-center">Métier</th>
-                        <th scope="col" class="text-center">Actions</th>                                
+                        <th scope="col" class="text-center pt-5">Image</th>
+                        <th scope="col" class="text-center pt-5" >Nom</th>
+                         <th scope="col" class="text-center pt-5" >Prénom</th>
+                        <th scope="col" class="text-center pt-5" >Métier</th>
+                        <th scope="col" class="text-center pt-5" >Actions</th>                                
                     </tr>
                 </thead>
                 <tbody>

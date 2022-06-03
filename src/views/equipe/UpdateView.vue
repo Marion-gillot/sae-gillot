@@ -1,10 +1,10 @@
 <template>
-    <div class="container">
+    <div class="container mt-32 mx-24 mb-72">
         <form enctype="multipart/form-data"  @submit.prevent="updateEquipe">
             <div class="card bg-dark">
 
                 <div class="card-header">
-                    <h5 style="color:white;">Mise à jour participant</h5>
+                    <h5 class="mt-28 mb-20 text-illustrationrose sm:text-1xl md:text-1xl lg:text-2xl font-bold font-oswald">Mise à jour participant</h5>
                 </div>    
 
                 <div class="card-body">   
@@ -21,7 +21,7 @@
                                     <span class="input-group-text" >Nom</span>
                                 </div>
                                 <input 
-                                    class="form-control" placeholder="Nom de la personne"
+                                    class="text-black py-2 w-96 px-3 rounded-5xl" placeholder="Nom de la personne"
                                     v-model="equipe.nom"
                                     required />                    
                             </div>
@@ -31,7 +31,7 @@
                                     <span class="input-group-text" >Prénom</span>
                                 </div>
                                 <input 
-                                    class="form-control" placeholder="Prénom de la personne" 
+                                    class="text-black py-2 w-96 px-3 rounded-5xl" placeholder="Prénom de la personne" 
                                     v-model="equipe.prenom"
                                     required />                    
                             </div>
@@ -54,35 +54,23 @@
                                 </div>
                                 <input 
                                     type="date"
-                                    class="form-control" 
+                                    class="text-black py-2 w-96 px-3 rounded-5xl" 
                                     required 
                                     v-model="equipe.naissance" 
                                     format="dd/mm/yyyy"
                                     />                    
                             </div>
                             <br/>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" >Pays</span>
-                                </div>
-                                <select class="custom-select" v-model="equipe.nationalite">
-                                    <option selected disabled>Sélectionner un Pays</option>
-
-                                    <option v-for="pays in listePays" :key="pays.nom">
-                                        {{pays.nom}}
-                                    </option>
-                                </select>
-                            </div>
                             <br/>
                         </div>
                     </div>               
                 </div>
 
                 <div class="card-footer">   
-                    <button type="submit" class="float-left btn btn-dark" >
+                    <button type="submit" class="float-left shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white" >
                         Modifier
                     </button>
-                    <button class="float-right btn btn-dark">
+                    <button class="float-right shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white">
                         <RouterLink to="/equipe">Cancel</RouterLink>
                     </button>
                 </div>

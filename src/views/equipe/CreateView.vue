@@ -62,17 +62,7 @@
                                     required />                    
                             </div>
                             <br/>
-                            <div class="input-group">
-                                <div class="input-group-prepend ">
-                                    <span class="input-group-text" >Pays</span>
-                                </div>
-                                <select class="custom-select" v-model="equipe.nationalite">
-                                    <option selected disabled>Sélectionner un Pays</option>
-                                    <option v-for="pays in listePays" :key="pays.nom">
-                                        {{pays.nom}}
-                                    </option>
-                                </select>
-                            </div>
+      
                             <br/>
                         </div>
                     </div>               
@@ -126,7 +116,7 @@ export default {
             equipe:{           // L'equipe à créer
                 nom:null,               // son nom
                 prenom:null,            // son prénom
-                photo:null,             // sa photo (nom du fichier)
+                image:null,             // sa photo (nom du fichier)
                 naissance:null,         // sa date de naissance
                 nationalite:null        // sa nationalité
             }
@@ -150,7 +140,7 @@ console.log("Liste des pays", this.listePays);
 
         previewImage: function(event) {
             this.file = this.$refs.file.files[0]
-            this.equipe.photo = this.file.name;
+            this.equipe.image = this.file.name;
             var input = event.target;
             if (input.files && input.files[0]) {
                 var reader = new FileReader();
@@ -162,8 +152,11 @@ console.log("Liste des pays", this.listePays);
         },
 
         async createEquipe(){
+            console.log ("equipe ",this.equipe.image);
+            console.log ("equipe ",this.imageData);
+
             const storage = getStorage();
-            const refStorage = ref(storage, 'equipe/'+this.equipe.photo);
+            const refStorage = ref(storage, 'equipe/'+this.equipe.image);
             await uploadString(refStorage, this.imageData, 'data_url').then((snapshot) => {
                 console.log('Uploaded a base64 string');
                 

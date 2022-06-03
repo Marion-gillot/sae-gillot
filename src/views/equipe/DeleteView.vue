@@ -4,7 +4,7 @@
             <div class="card bg-dark">
 
                 <div class="card-header">
-                    <h5 style="color:white;">Suppression d'un participant</h5>
+                    <h5 class="mt-28 mb-20 text-illustrationrose sm:text-1xl md:text-1xl lg:text-2xl font-bold font-oswald">Suppression d'un membre de l'équipe</h5>
                 </div>    
 
                 <div class="card-body">   
@@ -21,7 +21,7 @@
                                     <span class="input-group-text" >Nom</span>
                                 </div>
                                 <input 
-                                    class="form-control" placeholder="Nom de la personne"
+                                    class="text-black py-2 w-96 px-3 rounded-5xl" placeholder="Nom de la personne"
                                     v-model="equipe.nom"
                                     disabled />                    
                             </div>
@@ -31,7 +31,7 @@
                                     <span class="input-group-text" >Prénom</span>
                                 </div>
                                 <input 
-                                    class="form-control" placeholder="Prénom de la personne" 
+                                    class="text-black py-2 w-96 px-3 rounded-5xl" placeholder="Prénom de la personne" 
                                     v-model="equipe.prenom"
                                     disabled />                    
                             </div>
@@ -40,36 +40,26 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" >Date naissance</span>
                                 </div>
-                                <input type="date" class="form-control" 
+                                <input type="date" class="text-black py-2 w-96 px-3 rounded-5xl" 
                                     v-model="equipe.naissance" 
                                     format="dd/mm/yyyy"
                                     disabled
                                     />                    
                             </div>
-                            <br/>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" >Pays</span>
-                                </div>
-                                <input class="form-control" 
-                                    v-model="equipe.nationalite" 
-                                    disabled
-                                    />                    
-                            </div>
-                            <br/>
+    
                         </div>
                     </div>         
                     <br/>      
                     <h5 class="alert alert-warning text-center" role="alert">
-                        Attention vous allez supprimer ce participant, cette action est irréversible !!
+                        Attention vous allez supprimer ce membre de l'équipe, cette action est irréversible !!
                     </h5>
                 </div>
 
-                <div class="card-footer">   
-                    <button type="submit" class="float-left btn btn-dark" >
+                <div class="card-footer mt-10">   
+                    <button type="submit" class="float-left shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white" >
                         Supprimer
                     </button>
-                    <button class="float-right btn btn-dark">
+                    <button class="float-right shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white">
                         <RouterLink to="/equipe">Cancel</RouterLink>
                     </button>
                 </div>
