@@ -16,7 +16,7 @@
      <div class="space-x-6 mx-96 mt-8">
     <RouterLink to="/listeartistes">ListeArtistes</RouterLink>
     <RouterLink to="/listeconcerts">ListeConcerts</RouterLink>
-    <RouterLink to="/participants">ListeEquipe</RouterLink>
+    <RouterLink to="/equipes">ListeEquipe</RouterLink>
     </div>
 
   </nav>

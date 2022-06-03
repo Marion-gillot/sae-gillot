@@ -93,7 +93,7 @@
 </template>
 
 <script>
-// Bibliothèque Firestore : import des fonctions
+
 import { 
     getFirestore,   // Obtenir le Firestore
     collection,     // Utiliser une collection de documents
@@ -132,24 +132,14 @@ export default {
             }
         }
     },
-    mounted(){ // Montage de la vue
-        // Appel de la liste des pays
+    mounted(){ 
         this.getPays();
     },
     methods : {
         async getPays(){            
-            // Obtenir Firestore
             const firestore = getFirestore();
-            // Base de données (collection)  document pays
-            const dbPays = collection(firestore, "pays");
-            // Liste des equipes triés
-            // query permet de faire une requête sur Firebase
-            // notement pour filtrer, trier ... des données
-            //orderBy permet de préciser sur quel élément trier, et dans quel ordre
-            // ici le nom du pays par ordre croissant (asc)            
+            const dbPays = collection(firestore, "pays");       
             const q = query(dbPays, orderBy('nom', 'asc'));
-            // Récupération de la liste des pays à partir de la query
-            // La liste est synchronisée
             await onSnapshot(q, (snapshot) => {
                 this.listePays = snapshot.docs.map(doc => (
                     {id:doc.id, ...doc.data()}
@@ -159,44 +149,29 @@ console.log("Liste des pays", this.listePays);
         },
 
         previewImage: function(event) {
-            // Mise à jour de la photo du participant
-            this.file = this.$refs.file.files[0];
-            // Récupérer le nom du fichier pour la photo du participant
+            this.file = this.$refs.file.files[0]
             this.equipe.photo = this.file.name;
-            // Reference to the DOM input element
-            // Reference du fichier à prévisualiser
             var input = event.target;
-            // On s'assure que l'on a au moins un fichier à lire
             if (input.files && input.files[0]) {
-                // Creation d'un filereader
-                // Pour lire l'image et la convertir en base 64
                 var reader = new FileReader();
-                // fonction callback appellée lors que le fichier a été chargé
                 reader.onload = (e) => {
-                    // Read image as base64 and set to imageData
-                    // lecture du fichier pour mettre à jour 
-                    // la prévisualisation
                     this.imageData = e.target.result;
                 }
-                // Demarrage du reader pour la transformer en data URL (format base 64) 
                 reader.readAsDataURL(input.files[0]);        
             }
         },
 
         async createEquipe(){
-            // Obtenir storage Firebase
             const storage = getStorage();
-            // Référence de l'image à uploader
             const refStorage = ref(storage, 'equipe/'+this.equipe.photo);
-            // Upload de l'image sur le Cloud Storage
             await uploadString(refStorage, this.imageData, 'data_url').then((snapshot) => {
                 console.log('Uploaded a base64 string');
                 
-                // Création du participant sur le Firestore
+                
                 const db = getFirestore();
                 const docRef = addDoc(collection(db, 'equipe'), this.equipe );
             });
-            // redirection sur la liste des participants
+
             this.$router.push('/equipe');            
         }
     }

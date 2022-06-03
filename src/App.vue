@@ -20,6 +20,6 @@ import Footermobile from './Layout/FootermobileView.vue';
  <Footer1 class="hidden lg:block"/>
  <Footermobile class="lg:hidden"/>
  </footer>
-
-
 </template>
+
+

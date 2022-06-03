@@ -35,7 +35,6 @@ const router = createRouter({
     { path: '/listeartistes', name: 'ListeartistesView', component: ListeartistesView },
     { path: '/listeconcerts', name: 'ListeconcertsView', component: ListeconcertsView },
 
-
     { path: '/equipes',            name: 'ListeEquipe',    component: ListeEquipe,  },
     { path: '/createEquipe',       name: 'CreateEquipe',   component: CreateEquipe, },
     { path: '/updateEquipe/:id',   name: 'UpdateEquipe',   component: UpdateEquipe, }, 
