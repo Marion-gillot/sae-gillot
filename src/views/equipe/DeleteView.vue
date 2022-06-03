@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container mt-32 mx-24 mb-72">
         <form enctype="multipart/form-data"  @submit.prevent="deleteEquipe">
             <div class="card bg-dark">
 

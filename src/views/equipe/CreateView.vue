@@ -1,12 +1,12 @@
 <template>
-    <div class="container">
+    <div class="container mt-32 mx-24 mb-72">
         <form enctype="multipart/form-data" 
             @submit.prevent="createEquipe"
         >
             <div class="card bg-dark">
 
                 <div class="card-header">
-                    <h5 style="color:white;">Création equipe</h5>
+                    <h5 class=" mt-28 mb-20 text-illustrationrose sm:text-1xl md:text-1xl lg:text-2xl font-bold font-oswald">Création d'équipe</h5>
                 </div>    
 
                 <div class="card-body">   
@@ -23,7 +23,7 @@
                                     <span class="input-group-text" >Nom</span>
                                 </div>
                                 <input 
-                                    class="form-control" placeholder="Nom de la personne"
+                                    class="text-black py-2 w-96 px-3 rounded-5xl" placeholder="Nom de la personne"
                                     v-model="equipe.nom"
                                     required />                    
                             </div>
@@ -34,7 +34,7 @@
                                 </div>
                                 <input 
                                     v-model="equipe.prenom"
-                                    class="form-control" placeholder="Prénom de la personne" key=
+                                    class="text-black py-2 w-96 px-3 rounded-5xl" placeholder="Prénom de la personne" key=
                                     required />                    
                             </div>
                             <br/>
@@ -56,14 +56,14 @@
                                 </div>
                                 <input 
                                     type="date"
-                                    class="form-control"
+                                    class="text-black py-2 w-96 px-3 rounded-5xl"
                                     v-model="equipe.naissance" 
                                     format="dd/mm/yyyy" 
                                     required />                    
                             </div>
                             <br/>
                             <div class="input-group">
-                                <div class="input-group-prepend">
+                                <div class="input-group-prepend ">
                                     <span class="input-group-text" >Pays</span>
                                 </div>
                                 <select class="custom-select" v-model="equipe.nationalite">
@@ -78,11 +78,11 @@
                     </div>               
                 </div>
 
-                <div class="card-footer">   
-                    <button type="submit" class="float-left btn btn-dark">
+                <div class="card-footer mt-10">   
+                    <button type="submit" class="float-left shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white">
                         Créer
                     </button>
-                    <button class="float-right btn btn-dark" >
+                    <button class="float-right shadow bg-illustrationrose focus:shadow-outline focus:outline-none text-white font-bold py-2 px-20 rounded-9xl border-2 border-white" >
                         <router-link to="/equipe" >Cancel</router-link>
                     </button>
                 </div>

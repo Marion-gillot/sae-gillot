@@ -15,10 +15,10 @@
                 <thead>
                     <tr>                      
                         <th scope="col" class="text-center">Image</th>
-                        <th scope="col">Nom</th>
-                         <th scope="col">Prénom</th>
-                        <th scope="col">Métier</th>
-                        <th scope="col">Actions</th>                                
+                        <th scope="col" class="text-center">Nom</th>
+                         <th scope="col" class="text-center">Prénom</th>
+                        <th scope="col" class="text-center">Métier</th>
+                        <th scope="col" class="text-center">Actions</th>                                
                     </tr>
                 </thead>
                 <tbody>
