@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router'
 import './index.css'
 
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+
 const app = createApp(App)
   const firebaseConfig = {
     apiKey: "AIzaSyB4eSJog62GJdnK_u8yhtR6fT61nNiv21o",
@@ -13,6 +15,7 @@ const app = createApp(App)
     appId: "1:827131448601:web:d6d56cdd2511887012c988"
   };
 
+  const appFirebase = initializeApp(firebaseConfig);
 app.use(router)
 
 app.mount('#app')

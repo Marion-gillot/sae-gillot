@@ -14,7 +14,7 @@
             <CardView nom="PNL" date="20/04/2022" prix="75€/personne" titre="Deux frères" image="/img/pnl-card.png" />
             <CardView nom="Hatik" date="30/05/2022" prix="26€/personne" titre="Noyé-tour" image="/img/hatik-card.jpg" />
             <CardView nom="Ninho" date="30/05/2022" prix="26€/personne" titre="Jefe tour" image="/img/ninho-card.jpg" />
-            <CardView nom="Ziak" date="25/05/2022" prix="26€/personne" titre="DR" image="/img/ziak-card.jpg" />
+            <CardView nom="Ziak" date="20/05/2022" prix="26€/personne" titre="DR" image="/img/ziak-card.jpg" />
             <CardView nom="Jock'air" date="21/05/2022" prix="28€/personne" titre="Jock'travolta" image="/img/jockair-card.jpg" />
             <CardView nom="Vald" date="04/06/2022" prix="40.10€/personne" titre="DR" image="/img/vald-card.jpg" />
             <CardView nom="Tayc" date="17/06/2022" prix="42€/personne" titre="Cristal Destiny" image="/img/tayc-card.jpg" /> 

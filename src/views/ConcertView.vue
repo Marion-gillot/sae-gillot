@@ -101,19 +101,14 @@
 </template>
 
 <script>
-
 import LocalisationView from "/src/component/LocalisationView.vue";
 import TelephoneView from "/src/component/TelephoneView.vue";
 import EnveloppeView1 from "../component/EnveloppeView.vue";
 import PrixView from "../component/PrixView.vue";
-
 import SkinautiqueView from "../component/SkinautiqueView.vue";
 import JetskiView from "../component/JetskiView.vue";
 import BarView from "../component/BarView.vue";
 import VolleyView from "../component/VolleyView.vue";
-
-
-
 export default {
   components: { LocalisationView, TelephoneView, PrixView, EnveloppeView1, SkinautiqueView, JetskiView, BarView, VolleyView },
 };

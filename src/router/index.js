@@ -7,10 +7,12 @@ import ArtistesView from '../views/ArtistesView.vue'
 import ConcertView from '../views/ConcertView.vue'
 import ProgrammationView from '../views/ProgrammationView.vue'
 import ArtisteView from '../views/ArtisteView.vue'
-
 import page404View from '../views/page404View.vue'
-
 import GuidestyleView from '../views/GuidestyleView.vue'
+
+import ListeArtistes     from      '../views/artistes/ListeView.vue'
+import ConcertsView     from      '../views/ConcertsView.vue'
+import FirebaseView from '../views/artistes/ListeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,10 +25,12 @@ const router = createRouter({
     { path: '/concert', name: 'ConcertView', component: ConcertView },
     { path: '/programmation', name: 'ProgrammationView', component: ProgrammationView },
     { path: '/artiste', name: 'ArtisteView', component: ArtisteView },
-
     { path: '/Guidestyle', name: 'GuidestyleView', component: GuidestyleView },
     { path: '/:pathMatch(.*)', name: 'page404View', component: page404View },
 
+    { path: '/artistes', name: 'ListeArtistes', component: ListeArtistes  },
+    { path: '/concerts',     name: 'ConcertsView',              component: ConcertsView  },
+    { path: '/firebase',     name: 'FirebaseView',              component: FirebaseView  },
 
   ]
 })
