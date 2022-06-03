@@ -10,7 +10,7 @@
             inline
             rounded-lg
             border border-transparent
-            bg-blue-600
+            bg-illustrationrose
             px-4
             py-2
             text-sm
@@ -20,9 +20,6 @@
             shadow
             transition-colors
             duration-150
-            hover:bg-blue-700
-            focus:outline-none
-            active:bg-blue-600
             mb-10
           ">
           retour à l'accueil

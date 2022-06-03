@@ -11,8 +11,9 @@
     <RouterLink to="/artistes">Artistes</RouterLink>
     <RouterLink to="/apropos">Festival</RouterLink>
     <RouterLink to="/contact" class="text-illustrationrose font-bold">Contact</RouterLink>
-    <RouterLink to="/firebase">Firebase test</RouterLink>
-    <RouterLink to="/concerts">Concerts test</RouterLink>
+    <RouterLink to="/listeartistes">ListeArtistes</RouterLink>
+    <RouterLink to="/listeconcerts">ListeConcerts</RouterLink>
+
     </div>
 
   </nav>
