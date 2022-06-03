@@ -16,7 +16,9 @@ module.exports = {
     
   theme: {
     extend: {
-      darkMode: 'class',
+      screens: {
+        'light': { 'raw': '(prefers-color-scheme: light)' },
+      },
 
       "colors": {
        "fondsite": "#191919",

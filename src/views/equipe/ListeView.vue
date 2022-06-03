@@ -1,7 +1,7 @@
 <template>
-    <div class="card mx-20 mb-28">
+    <div class="card mx-20 mb-28 bg-fond1footer px-4 rounded-10xl">
         <div class="card-header">
-            <h5 class="mt-28 mb-20 text-illustrationrose sm:text-1xl md:text-1xl lg:text-2xl font-bold font-oswald">Liste de l'équipe
+            <h5 class="mt-28 mb-10 pt-3 py-3 text-illustrationrose sm:text-1xl md:text-1xl lg:text-2xl font-bold font-oswald">Liste de l'équipe
                 <span class="float-right mx-24" title="Créer un nouveau participant"> 
                     <router-link to="/createEquipe">
                         <MoreView />
@@ -10,8 +10,8 @@
             </h5>
         </div>    
                         
-        <div class="card-body table-responsive grid grid- p-3">
-            <table class="table border-2 text-light">
+        <div class="card-body table-responsive grid grid-5">
+            <table class="table text-light">
                 <thead>
                     <tr>                      
                         <th scope="col" class="text-center pt-5">Image</th>
