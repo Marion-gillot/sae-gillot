@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-24 mb-96">
     <div class="card-header">
-      <h2 class="mt-28 mb-5 text-2xl">Liste des concerts</h2>
+      <h2 class="mt-28 mb-5 text-illustrationrose sm:text-1xl md:text-1xl lg:text-2xl font-bold font-oswald ">Liste des concerts</h2>
     </div>
     <hr />
     <form>

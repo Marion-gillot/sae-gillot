@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-24 mb-96">
     <div class="card-header">
-      <h2 class="mt-28 mb-5 text-2xl">Liste des artistes</h2>
+      <h2 class="mt-28 mb-5 text-illustrationrose sm:text-1xl md:text-1xl lg:text-2xl font-bold font-oswald ">Liste des artistes</h2>
     </div>
     <hr />
     <form>
@@ -17,7 +17,7 @@
           @click="createArtistes()"
           title="Création"
         >
-          <i class="fa fa-save fa-lg"></i>
+          <SaveView class="mt-9 mx-4"/>
         </button>
       </div>
     </form>
@@ -35,7 +35,7 @@
                   </div>
                   <input type="text" class="text-black py-2 w-96 px-3 rounded-5xl" v-model="filter" />
                   <button class="btn btn-light" type="button" title="Filtrage">
-                    <i class="fa fa-search fa-lg"></i>
+                    <SearchView class="mx-4 mt-2"/>
                   </button>
                 </div>
               </span>
@@ -70,7 +70,7 @@
                     @click.prevent="deleteArtistes(artistes)"
                     title="Suppression"
                   >
-                    <i class="fa fa-trash fa-lg"></i>
+                    <DeleteView class=" mx-3 -mt-4"/>
                   </button>
                 </div>
               </form>
@@ -83,6 +83,11 @@
 </template>
 
 <script>
+
+import DeleteView from '../component/DeleteView.vue';
+import SaveView from "/src/component/SaveView.vue";
+import SearchView from "/src/component/SearchView.vue";
+
 import {
   getFirestore,
   collection,
@@ -94,6 +99,7 @@ import {
   onSnapshot,
 } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
 export default {
+  components: { SaveView, DeleteView, SearchView },
   name: "Listeartistes",
   data() {
     return {

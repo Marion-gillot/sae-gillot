@@ -13,6 +13,10 @@ import GuidestyleView from '../views/GuidestyleView.vue'
 import ListeartistesView from '../views/ListeartistesView.vue'
 import ListeconcertsView from '../views/ListeconcertsView.vue'
 
+import ListeEquipe     from      '../views/equipe/ListeView.vue'
+import CreateEquipe     from      '../views/equipe/CreateView.vue'
+import UpdateEquipe    from      '../views/equipe/UpdateView.vue'
+import DeleteEquipe    from      '../views/equipe/DeleteView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,7 +36,10 @@ const router = createRouter({
     { path: '/listeconcerts', name: 'ListeconcertsView', component: ListeconcertsView },
 
 
-
+    { path: '/equipes',            name: 'ListeEquipe',    component: ListeEquipe,  },
+    { path: '/createEquipe',       name: 'CreateEquipe',   component: CreateEquipe, },
+    { path: '/updateEquipe/:id',   name: 'UpdateEquipe',   component: UpdateEquipe, }, 
+    { path: '/deleteEquipe/:id',   name: 'DeleteEquipe',   component: DeleteEquipe, }, 
 
 
   ]
